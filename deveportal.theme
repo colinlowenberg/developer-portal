@@ -1,0 +1,1520 @@
+<html class="no-js" lang="en">
+    <head>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="http://static.tumblr.com/fpifyru/VCxlv9xwi/writecapture.js"></script>
+<script src="http://static.tumblr.com/fpifyru/AKFlv9zdu/embedgist.js"></script>
+        {MobileAppHeaders}
+        <meta charset="utf-8">
+        <title>{Title}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} — {PostSummary}{/block:PostSummary}{/block:PermalinkPage}</title>
+        {block:Description}
+        <meta name="description" content="{MetaDescription}">
+        {/block:Description}
+        {block:Hidden}
+
+        <!-- Slider Rules -->
+         <meta name="if:Content Slider" content="1">
+        <meta name="image:Slide One Image" content="http://static.tumblr.com/7306a1fc843529a1c15b07d774af6d4f/vp1f6hg/CxYnfa0iu/tumblr_static_9mhx6jr4u58gwogoowsko4484.jpg">
+        <meta name="text:Caption One" content="Minelienda Tumblr Theme">
+        <meta name="text:Description One" content="A minimalistic, responsive, customisable, fluid grid, full width tumblr theme. As minimalistic as you want it.">
+        <meta name="text:URL One" content="http://www.minelienda.com/features">
+        <meta name="image:Slide Two Image" content="http://static.tumblr.com/7bb26342f0126b1191a113eb3eb27028/vp1f6hg/hYrnfa0zp/tumblr_static_4vnsq1k4zuecso0sk4k84wggg.jpg">
+        <meta name="text:Caption Two" content="Above the Fold Slider">
+        <meta name="text:Description Two" content="Responsive content slider. 3 Slides with custom heading, text & link. Use gifs & images as backgrounds. Don't want it? Switch it off.">
+        <meta name="text:URL Two" content="http://www.minelienda.com/home-page-slider">
+        <meta name="image:Slide Three Image" content="http://static.tumblr.com/7bb26342f0126b1191a113eb3eb27028/vp1f6hg/hYrnfa0zp/tumblr_static_4vnsq1k4zuecso0sk4k84wggg.jpg">
+        <meta name="text:Caption Three" content="Full of features">
+        <meta name="text:Description Three" content="Inbuilt 500px & Instagram integration, 3 different types of commenting systems - FB Comments, Google Plus Comments & Disqus. Lots more.">
+         <meta name="text:URL Three" content="http://www.minelienda.com/features">
+        <!-- Slider Rules -->
+        <meta name="if:Show Sidebar" content="1">
+        
+        <!-- Social Dropdown Rules -->
+        <meta name="if:Show Social Dropdown" content="1">
+        <meta name="text:Twitter Link" content="">
+        <meta name="text:FB Link" content="">
+        <meta name="text:Pinterest Link" content="">
+        <meta name="text:Behance Link" content="">
+        <meta name="text:BitBucket Link" content="">
+        <meta name="text:Declicious Link" content="">
+        <meta name="text:DeviantArt Link" content="">
+        <meta name="text:Github Link" content="">
+        <meta name="text:GooglePlus Link" content="">
+        <meta name="text:Instagram Link" content="">
+        <meta name="text:Lastfm Link" content="">
+        <meta name="text:LinkedIn Link" content="">
+        <meta name="text:Reddit Link" content="">
+        <meta name="text:Skype Link" content="">
+        
+        <!-- Custom Sidebar Panels -->
+        <meta name="text:Custom Sidebar One Title" content="Custom One">
+        <meta name="text:Custom Sidebar One Content" content="Custom One Content">
+        <meta name="text:Custom Sidebar Two Title" content="Custom Two">
+        <meta name="text:Custom Sidebar Two Content" content="Custom Two Content">
+        <meta name="text:Custom Sidebar Three Title" content="Custom Three">
+        <meta name="text:Custom Sidebar Three Content" content="Custom Three Content">
+        <meta name="text:Custom Sidebar Four Title" content="Custom Four">
+        <meta name="text:Custom Sidebar Four Content" content="Custom Four Content">
+        <meta name="text:Custom Sidebar Five Title" content="Custom Five">
+        <meta name="text:Custom Sidebar Five Content" content="Custom Five Content">
+        <meta name="text:Instagram Token" content="">
+        <meta name="text:Instagram User ID" content="">
+        <meta name="text:Instagram Title" content="@Instagram">
+        <meta name="text:500px Username" content="">
+        <meta name="text:500px Title" content="@500px">
+        
+        <!-- Footer rules -->
+        <meta name="if:Show Footer Layer One" content="1">
+        <meta name="text:About Footer Title" content="About">
+        <meta name="text:About Footer Text" content="">
+        <meta name="if:Show About Footer Column" content="1">
+        <meta name="if:Show Liked Posts" content="1">
+        <meta name="if:Show Tags Footer Column" content="1">
+        <meta name="if:Show Blogs You Follow" content="1">
+        <meta name="if:Show Links Footer Row" content="1">
+        <meta name="if:Show Credit In Footer" content="1">
+        <meta name="if:Give Kudos To Sojourner" content="1">
+        
+        
+        <meta name="text:Footer Link One Text" content="Link One">
+        <meta name="text:Footer Link One URL" content="">
+        <meta name="text:Footer Link Two Text" content="Link Two">
+        <meta name="text:Footer Link Two URL"  content="">
+        <meta name="text:Footer Link Three Text" content="Link Three">
+        <meta name="text:Footer Link Three URL" content="">
+        <meta name="text:Footer Link Four Text" content="Link Four">
+        <meta name="text:Footer Link Four URL" content="">
+        
+        <meta name="text:Footer Credit" content="">
+        
+        <!-- Code highlighting -->
+         <meta name="if:Code Highlighting" content="0">
+        <!-- Misc. Variables  -->
+        <meta name="text:GoogleFonts" content="Nixie+One|Cabin:700|Muli">
+        <meta name="text:Disqus shortname" content="">
+        <meta name="text:Google analytics ID" content="">
+        <meta name="image:Header" content="https://38.media.tumblr.com/avatar_d093a126cf1c_128.png">
+        <meta name="text:Meta Author" content="Minelienda.tumblr.com">
+        
+         <!-- Tag content variables -->
+        <meta name="if:Tag Nav Enabled" content="1">
+        <meta name="text:TagNavigationName" content="Categories">
+        <meta name="text:TagOne" content="">
+        <meta name="text:TagTwo" content="">
+        <meta name="text:TagThree" content="">
+        <meta name="text:TagFour" content="">
+        <meta name="text:TagFive" content="">
+        <meta name="text:TagSix" content="">
+        <meta name="text:TagSeven" content="">
+        <meta name="text:TagEight" content="">
+        <meta name="text:TagNine" content="">
+        <meta name="text:TagTen" content="">
+        
+        <meta name="text:APINavigationName" content="APIs">
+        <meta name="text:APIOne" content="">
+        <meta name="text:APITwo" content="">
+        <meta name="text:APIThree" content="">
+        <meta name="text:APIFour" content="">
+        <meta name="text:APIFive" content="">
+        <meta name="text:APISix" content="">
+        <meta name="text:APISeven" content="">
+        <meta name="text:APIEight" content="">
+        <meta name="text:APINine" content="">
+        <meta name="text:APITen" content="">
+        
+        <!-- Single Page Commenting System Rules -->
+        <meta name="if:Disqus Commenting" content="1">
+        <meta name="if:GooglePlus Commenting" content="0">
+        <meta name="if:Facebook Commenting" content="0">
+       
+       
+        <!-- Color & Font tags -->
+        <meta name="text:Font String" content="'Muli', sans-serif">
+        <meta name="text:Title String" content="'Cabin', sans-serif">
+        <meta name="text:Blockquote String" content="'Nixie One', sans-serif">
+        <meta name="color:Text" content="#000000">
+        <meta name="color:Title Color" content="#000000">
+        <meta name="color:AccentColor" content="#999">
+        <meta name="color:Slide Caption" content="#FFFFFF">
+        <meta name="color:Slide Title" content="#FFFFFF">
+        <meta name="color:Slide Title Background" content="#000000">
+        <meta name="color:Slide Caption Background" content="#000000">
+        <meta name="color:Call To Action Background" content="#000000">
+        <meta name="color:Call To Action Text" content="#FFFFFF">
+        <meta name="color:Call To Action Background Hover" content="#46ceff">
+        <meta name="color:Call To Action Text Hover" content="#FFFFFF">
+        <meta name="color:Navigation Background" content="#FAFAFA">
+        <meta name="color:Navigation Text" content="#000000">
+        <meta name="color:Navigation Hover Background" content="#2590e0">
+        <meta name="color:Navigation Text Hover" content="#FFFFFF">
+        <meta name="color:Site Name Text" content="#2590e0">
+        <meta name="color:Link Text" content="#25B0EB">
+        <meta name="color:Link Text Hover" content="#2590E0">
+        <meta name="color:Single Page Heading Background" content="#25b0eb">
+        <meta name="color:Single Page Heading Text" content="#FFFFFF">
+        <meta name="color:Avatar Photo Bg" content="#000000">
+        <meta name="color:Avatar Photo BioBg" content="#2590E0">
+        <meta name="color:Description Text" content="#FFFFFF">
+        <meta name="color:Footer Background" content="#10234b">
+        <meta name="color:Footer Text" content="#CCC">
+        <meta name="color:Footer Border" content="#354463">
+        <meta name="color:Footer Bottom" content="#000">
+        <meta name="color:Top Accent Line One" content="#10234b">
+        <meta name="color:Top Accent Line Two" content="#1c58b0">
+        <meta name="color:Top Accent Line Three" content="#2590e0">
+        <meta name="color:Top Accent Line Four" content="#25b0eb">
+        <meta name="color:Top Accent Line Five" content="#45eded">
+        
+        <meta name="if:Uppercase Titles" content="1">
+        
+        {/block:Hidden}
+        
+<!--------------------------------------------
+ __         _                                                   
+/ _\  ___  (_)  ___   _   _  _ __  _ __    ___  _ __  ___  ___  
+\ \  / _ \ | | / _ \ | | | || '__|| '_ \  / _ \| '__|/ __|/ _ \ 
+_\ \| (_) || || (_) || |_| || |   | | | ||  __/| | _| (__| (_) |
+\__/ \___/_/ | \___/  \__,_||_|   |_| |_| \___||_|(_)\___|\___/ 
+         |__/                                                   
+Title:Minelienda Tumblr Theme- Minimalistic, Simple and Totally Customisable.
+Author:Sojourner.co
+Version:2.0
+Questions? Ask @ minelienda.tumblr.com
+
+---------------------------------------------->
+        <!-- Social Media Meta Data Tags -->
+         <meta name="twitter:card" content="summary" />
+{block:Twitter}<meta name="twitter:site" content="@{TwitterUsername}" />{/block:Twitter}
+<meta name="twitter:title" content="{Title}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} -{PostSummary}{/block:PostSummary}{/block:PermalinkPage}{block:PermalinkPage} - {block:PostTitle}{PostTitle} {/block:PostTitle}{/block:PermalinkPage}" />
+<meta name="twitter:description" content="{Title}{block:IndexPage}{block:Description} - {MetaDescription} {/block:Description}{/block:IndexPage}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} - {PostSummary}{/block:PostSummary}{/block:PermalinkPage}" />
+<meta name="twitter:image" content="{image:Header}" />
+<meta name="twitter:url" content="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{PermaLink}{/block:PermalinkPage}" />
+        <meta property="og:title" content="{Title}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} -{PostSummary}{/block:PostSummary}{/block:PermalinkPage}{block:PermalinkPage} - {block:PostTitle}{PostTitle} {/block:PostTitle}{/block:PermalinkPage}" />
+        <meta property="og:site_name" content="{Title}{block:IndexPage}{block:Description} - {MetaDescription} {/block:Description}{/block:IndexPage}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} - {PostSummary}{/block:PostSummary}{/block:PermalinkPage}"/>
+        <meta property="og:url"
+content="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{PermaLink}{/block:PermalinkPage}" />
+<meta property="og:type" content="{block:IndexPage}Blog{/block:IndexPage}{block:PermalinkPage}article{/block:PermalinkPage}" />
+        <meta property="og:image" content="{image:Header}" />
+        <meta name="author" content="{text:Meta Author}" />
+       
+        <!-- Social Media Meta Data Tags -->
+        
+       
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="{Favicon}">
+        <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
+        <link rel="alternate" type="application/rss+xml" href="{RSS}">
+        <link href="//fonts.googleapis.com/css?family={text:GoogleFonts}" rel="stylesheet" type="text/css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://static.tumblr.com/vp1f6hg/0Qjnf4j02/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vp1f6hg/ALWnf4jan/foundation.min.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/4tmxbmo/aESnu430k/minata.min.css">
+       
+        <link rel="stylesheet" href="http://static.tumblr.com/4tmxbmo/pnLnhhoqj/minata.responsive.min.css">
+        {block:IfCodeHighlighting}
+        <link rel="stylesheet" href="http://static.tumblr.com/vp1f6hg/D58nh2w70/prism.css">
+        {/block:IfCodeHighlighting}
+        <!--[if gte IE 9]>
+  <style type="text/css">
+    .top-color-bar-gradient, #single-page-content-container, #single-page-content-container .type-post, #single-page-content-container .type-image, #single-page-content-container .type-video, #single-page-content-container .type-audio, #single-page-content-container .type-chat, #single-page-content-container .type-quote, #single-page-content-container .type-link {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<style>
+    #container {
+   position: relative;
+    max-width: 85%;
+    margin: 0 auto;
+    /*
+    background: #ffffff;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+       */
+}
+    html, body {
+        font-family: {text:Font String} !important;
+        color: {color:Text};
+        background: #f9f9f9;
+        
+    {block:IndexPage}
+    overflow-y:hidden;
+    {/block:IndexPage}
+    {block:TagPage} 
+    
+    overflow-y:initial;
+    {/block:TagPage}
+    }
+    
+    h1, h2, h3, h4, h5, h6, article h2, article h2 a, .saint, a.read_more{
+        font-family: {text:Title String} !important;
+        color: {color:Title Color};
+    }
+    .type-quote article blockquote a{
+        font-family: {text:Blockquote String} !important;
+    }
+    #nav-container, .sticky.fixed{
+        -webkit-box-shadow:0px 1px 15px 0px {color:AccentColor};
+        -moz-box-shadow:0px 1px 15px 0px {color:AccentColor};
+        box-shadow: 0px 1px 15px 0px {color:AccentColor};
+        box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+        background: #fafafa;
+        border-top: 2px solid #78be20;
+    
+    }
+    
+    
+     .top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
+        -webkit-box-shadow: 0px 5px 4px 0px {color:AccentColor};
+        -moz-box-shadow:0px 5px 4px 0px {color:AccentColor};
+        box-shadow:0px 5px 4px 0px {color:AccentColor};
+        box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+        background: #fafafa;
+        
+    }
+    .orbit-container .orbit-slides-container > * .orbit-caption {
+        color: {color:Slide Caption};
+    }
+    
+    .orbit-caption h2 {
+        color: {color:Slide Title};
+        background: {color:Slide Title Background}
+    }
+    
+    .orbit-caption p {
+        background: {color:Slide Caption Background};
+    }
+    
+    .saint, a.read_more {
+        background-color: {color:Call To Action Background};
+        border-color: {color:Call To Action Background};
+        color: {color:Call To Action Text};
+    }
+    .saint:hover, .saint:focus,a.read_more:hover, a.read_more:focus {
+        background-color: {color:Call To Action Background Hover};
+        border-color: {color:Call To Action Background Hover};
+        color: {color:Call To Action Text Hover};
+    }
+    .top-bar, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li, .top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section .has-form, .top-bar.expanded .title-area, .contain-to-grid, #top-color-bar {
+        background: {color:Navigation Background};
+    border: 1px solid rgba(221,221,221,0);
+    }
+    
+    .top-bar-section ul li > a, .top-bar-section ul li:hover:not(.has-form) > a, .top-bar, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section .has-form, .top-bar .toggle-topbar.menu-icon a, .top-bar .toggle-topbar.menu-icon a, .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
+        color: {color:Navigation Text};
+        
+    }
+    
+    .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button), .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover, .top-bar .toggle-topbar.menu-icon a span:hover:after {
+        background: {color:Navigation Hover Background};
+    border: 1px solid rgba(221,221,221,0);
+    border-color: #ddd;
+    
+    }
+    
+    .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover, .top-bar .toggle-topbar.menu-icon a span:hover:after {
+        color: {color:Navigation Text Hover};
+        
+    }
+    
+    .top-bar .name h1 a {
+        color: {color:Site Name Text};
+        
+    }
+    
+    article h2 a, a, ul.pagination li.current a, ul.pagination li.current button, ul.pagination li a, a, ul.pagination li a i.fa, #go-to-top a, #go-to-top a i{
+        color: {color:Link Text};
+    }
+        
+     
+     #social-home a.dropdown {
+       
+       {block:HideDescription} 
+        margin-top:1rem; 
+       {/block:HideDescription} 
+         background: {color:Link Text};
+         color: {color:Description Text};
+     }
+      div.extra-content-header-container{
+          background: {color:Link Text};
+      }
+      div.extra-content-header-container h2{
+          color: {color:Description Text};
+      }
+article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li a i.fa:hover, #go-to-top a:hover, #go-to-top a i:hover {
+        color: {color:Link Text Hover}; 
+    }
+    
+    #social-home a.dropdown:hover {
+        background:{color:Link Text Hover}; 
+    }
+    #avatar-photo{
+        border: 1px solid {color:Avatar Photo Bg};
+        background: {color:Avatar Photo Bg};
+    }
+    #avatar-photo-bio-down {
+        {block:HideAvatar} 
+        margin-top:1rem;
+        {/block:HideAvatar} 
+        background: {color:Avatar Photo BioBg};
+    }
+    
+    
+    #bio-cv{
+        color: {color:Description Text};
+    }
+    #top-color-bar.top-color-bar-gradient {
+        
+         border-top: 15px solid #fafafa;
+       /*  background: {color:Top Accent Line One};
+     
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjMTAyMzRiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjMlIiBzdG9wLWNvbG9yPSIjMWM1OGIwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMjU5MGUwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iODAlIiBzdG9wLWNvbG9yPSIjMjViMGViIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ1ZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(-45deg, {color:Top Accent Line One} 1%, {color:Top Accent Line Two} 23%, {color:Top Accent Line Three} 50%, {color:Top Accent Line Four} 80%, {color:Top Accent Line Five} 100%);
+   
+    
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(1%, {color:Top Accent Line One}), color-stop(23%, {color:Top Accent Line Two}), color-stop(50%, {color:Top Accent Line Three}), color-stop(80%, {color:Top Accent Line Four}), color-stop(100%, {color:Top Accent Line Five}));
+    
+        background: -webkit-linear-gradient(-45deg, {color:Top Accent Line One} 1%, {color:Top Accent Line Two} 23%, {color:Top Accent Line Three} 50%, {color:Top Accent Line Four} 80%, {color:Top Accent Line Five} 100%);
+    
+        background: -o-linear-gradient(-45deg, {color:Top Accent Line One} 1%, {color:Top Accent Line Two} 23%, {color:Top Accent Line Three} 50%, {color:Top Accent Line Four} 80%, {color:Top Accent Line Five} 100%);
+    
+        background: -ms-linear-gradient(-45deg, {color:Top Accent Line One} 1%, {color:Top Accent Line Two} 23%, {color:Top Accent Line Three} 50%, {color:Top Accent Line Four} 80%, {color:Top Accent Line Five} 100%);
+  
+    
+        background: linear-gradient(135deg, {color:Top Accent Line One} 1%, {color:Top Accent Line Two} 23%, {color:Top Accent Line Three} 50%, {color:Top Accent Line Four} 80%, {color:Top Accent Line Five} 100%);
+ 
+    
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='{color:Top Accent Line One}', endColorstr='{color:Top Accent Line Five}', GradientType=1);
+    IE6-8 fallback on horizontal gradient */
+    }
+    
+    footer, footer .row{
+         background-color: {color:Footer Background};
+    }
+    footer, footer .row, footer h1, footer h2, footer h3, footer h4, footer h5, footer .fa {
+        color: {color:Footer Text};
+    } 
+    div.column-content {
+        border-right: 1px solid {color:Footer Border};
+    }
+    footer .footer-bottom-links i {
+  
+        border-top: 1px solid {color:Footer Border};
+    }
+    footer div.footer-main {
+        background: {color:Footer Bottom};
+        
+    }
+   
+    
+   div.one-four-col{
+       float:left !important;
+       width: auto;
+        min-width: 25%;
+   }
+   
+    #single-page-content-container article > h2,  #single-page-content-container article > h1{
+        background: {color:Single Page Heading Background};
+        color: {color:Single Page Heading Text};
+    }
+    
+    #single-page-content-container article > h2 a, #single-page-content-container article > h1 a{
+         color: {color:Single Page Heading Text};
+    }
+    {block:ifUppercaseTitles}
+        h1, h2, h3, h4, h5, h6{
+            text-transform:uppercase;
+        }
+    {/block:ifUppercaseTitles}
+
+
+#headerlinks ul li{
+    float:right;
+    display: inline;
+    font-size: 12px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: {color:Navigation Text};
+    text-align: center;
+        }
+        
+#headerlinks ul li a{
+    color: {color:Navigation Text};
+        }
+        
+#headerlinks ul li a:hover{
+    text-decoration: underline;
+        }
+   {CustomCSS}
+
+
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+    width: 216px;
+    height: 360px;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    
+}
+
+.orbit-container .orbit-prev>span {
+    left: 40%;
+}
+
+
+    </style>
+    
+    
+    </head>
+    
+    <body data-urlencoded-name="{URLEncodedName}" >
+    {block:IfGoogleAnalyticsID}
+    <script>
+    
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{text:Google analytics ID}', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    {/block:IfGoogleAnalyticsID}
+    <header class="row {block:IndexPage} index-page{/block:IndexPage}{block:PermalinkPage} single-page{/block:PermalinkPage}{block:IfNotContentSlider} single-page{/block:IfNotContentSlider}">
+     
+        <a name="top-of-page"></a>
+        <div class="small-12 medium-12 large-12 columns" id="nav-container">
+            <div class="sticky">
+                <div class="small-12 medium-12 large-12 columns top-color-bar-gradient" id="top-color-bar">
+                </div>
+
+
+        
+               
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{BlogURL}"><img src="{image:Header}" alt="Meraki" width="172" height="35" ><br></a>
+                       <!-- <li class="name">
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{BlogURL}">Developers </a>
+                        </li>
+                        -->
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon">
+                            <a href="javascript:void(0);">
+                                <span>Menu</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <section class="top-bar-section">
+                  
+                        <!-- Left Nav Section -->
+                        <ul class="left">
+
+                        {block:ifTagNavEnabled}
+                            <li class="hide-for-medium-only has-dropdown">
+                                <a href="javascript:void(0);"><h6>{text:TagNavigationName}</h6></a>
+                                <ul class="dropdown">
+                                    {block:IfTagOne}
+                                    <li><a href="/tagged/{text:TagOne}/chrono">{text:TagOne}</a>
+                                    
+                                    </li>
+                                    {/block:IfTagOne}
+                                    {block:IfTagTwo}
+                                    <li><a href="/tagged/{text:TagTwo}/chrono">{text:TagTwo}</a>
+                                    </li>
+                                    {/block:IfTagTwo}
+                                    {block:IfTagThree}
+                                    <li><a href="/tagged/{text:TagThree}/chrono">{text:TagThree}</a>
+                                    </li>
+                                    {/block:IfTagThree}
+                                    {block:IfTagFour}
+                                    <li><a href="/tagged/{text:TagFour}/chrono">{text:TagFour}</a>
+                                    </li>
+                                    {/block:IfTagFour}
+                                    {block:IfTagFive}
+                                    <li><a href="/tagged/{text:TagFive}/chrono">{text:TagFive}</a>
+                                    </li>
+                                    {/block:IfTagFive}
+                                    {block:IfTagSix}
+                                    <li><a href="/tagged/{text:TagSix}/chrono">{text:TagSix}</a>
+                                    </li>
+                                    {/block:IfTagSix}
+                                    {block:IfTagSeven}
+                                    <li><a href="/tagged/{text:TagSeven}/chrono">{text:TagSeven}</a>
+                                    </li>
+                                    {/block:IfTagSeven}
+                                    {block:IfTagEight}
+                                    <li><a href="/tagged/{text:TagEight}/chrono">{text:TagEight}</a>
+                                    </li>
+                                    {/block:IfTagEight}
+                                    {block:IfTagNine}
+                                    <li><a href="/tagged/{text:TagNine}/chrono">{text:TagNine}</a>
+                                    </li>
+                                    {/block:IfTagNine}
+                                    {block:IfTagTen}
+                                    <li><a href="/tagged/{text:TagTen}/chrono">{text:TagTen}</a>
+                                    </li>
+                                    {/block:IfTagTen}
+                                   
+                                </ul> 
+                            </li>
+                            <li class="hide-for-medium-only has-dropdown">
+                                <a href="javascript:void(0);"><h6>{text:APINavigationName}</h6></a>
+                                <ul class="dropdown">
+                                    {block:IfAPIOne}
+                                    <li><a href="/tagged/{text:APIOne}">{text:APIOne}</a>
+                                    
+                                    </li>
+                                    {/block:IfAPIOne}
+                                    {block:IfAPITwo}
+                                    <li><a href="/tagged/{text:APITwo}">{text:APITwo}</a>
+                                    </li>
+                                    {/block:IfAPITwo}
+                                    {block:IfAPIThree}
+                                    <li><a href="/tagged/{text:APIThree}">{text:APIThree}</a>
+                                    </li>
+                                    {/block:IfAPIThree}
+                                    {block:IfAPIFour}
+                                    <li><a href="/tagged/{text:APIFour}">{text:APIFour}</a>
+                                    </li>
+                                    {/block:IfAPIFour}
+                                    {block:IfAPIFive}
+                                    <li><a href="/tagged/{text:APIFive}">{text:APIFive}</a>
+                                    </li>
+                                    {/block:IfAPIFive}
+                                    {block:IfAPISix}
+                                    <li><a href="/tagged/{text:APISix}">{text:APISix}</a>
+                                    </li>
+                                    {/block:IfAPISix}
+                                    {block:IfAPISeven}
+                                    <li><a href="/tagged/{text:APISeven}">{text:APISeven}</a>
+                                    </li>
+                                    {/block:IfAPISeven}
+                                    {block:IfAPIEight}
+                                    <li><a href="/tagged/{text:APIEight}">{text:APIEight}</a>
+                                    </li>
+                                    {/block:IfAPIEight}
+                                    {block:IfAPINine}
+                                    <li><a href="/tagged/{text:APINine}">{text:APINine}</a>
+                                    </li>
+                                    {/block:IfAPINine}
+                                    {block:IfAPITen}
+                                    <li><a href="/tagged/{text:APITen}">{text:APITen}</a>
+                                    </li>
+                                    {/block:IfAPITen}
+                                   
+                                </ul> 
+                            </li>
+                        {/block:ifTagNavEnabled}
+                        
+                        
+                        {block:AskEnabled}
+                        {block:SubmissionsEnabled}
+                             <li class="hide-for-medium-only"><a href="/submit" class="submit"><h6>{SubmitLabel}</h6></a>
+                            </li>
+                        {/block:SubmissionsEnabled}
+                            <li class="hide-for-medium-only"><a href="/ask" class="{AskLabel}"><h6>{AskLabel}</h6></a></li>
+                            {/block:AskEnabled}
+                            
+                            {block:HasPages}
+                            {block:Pages}
+                            <li class="hide-for-medium-only"><a href="{URL}"><h6>{Label}</h6></a>
+                            </li>
+                            {/block:Pages}
+                        {/block:HasPages}
+                        
+
+                            <li class="has-dropdown show-for-medium-only">
+                                 <a href="javascript:void(0);"><h6>{text:TagNavigationName}</h6></a>
+                                <ul class="dropdown">
+                                {block:IfTagOne}
+                                    <li><a href="/tagged/{text:TagOne}/chrono">{text:TagOne}</a>
+                                    
+                                    </li>
+                                    {/block:IfTagOne}
+                                    {block:IfTagTwo}
+                                    <li><a href="/tagged/{text:TagTwo}/chrono">{text:TagTwo}</a>
+                                    </li>
+                                    {/block:IfTagTwo}
+                                    {block:IfTagThree}
+                                    <li><a href="/tagged/{text:TagThree}/chrono">{text:TagThree}</a>
+                                    </li>
+                                    {/block:IfTagThree}
+                                    {block:IfTagFour}
+                                    <li><a href="/tagged/{text:TagFour}/chrono">{text:TagFour}</a>
+                                    </li>
+                                    {/block:IfTagFour}
+                                    {block:IfTagFive}
+                                    <li><a href="/tagged/{text:TagFive}/chrono">{text:TagFive}</a>
+                                    </li>
+                                    {/block:IfTagFive}
+                                    {block:IfTagSix}
+                                    <li><a href="/tagged/{text:TagSix}/chrono">{text:TagSix}</a>
+                                    </li>
+                                    {/block:IfTagSix}
+                                    {block:IfTagSeven}
+                                    <li><a href="/tagged/{text:TagSeven}/chrono">{text:TagSeven}</a>
+                                    </li>
+                                    {/block:IfTagSeven}
+                                    {block:IfTagEight}
+                                    <li><a href="/tagged/{text:TagEight}/chrono">{text:TagEight}</a>
+                                    </li>
+                                    {/block:IfTagEight}
+                                    {block:IfTagNine}
+                                    <li><a href="/tagged/{text:TagNine}/chrono">{text:TagNine}</a>
+                                    </li>
+                                    {/block:IfTagNine}
+                                    {block:IfTagTen}
+                                    <li><a href="/tagged/{text:TagTen}/chrono">{text:TagTen}</a>
+                                    </li>
+                                    {/block:IfTagTen}
+                                    
+                               </ul>
+                               </li>
+                               
+<li class="has-dropdown show-for-medium-only">
+                               <a href="#"><h6>Developers</h6></a>
+                               <ul class="dropdown">
+                                <li class="show-for-medium-only has-dropdown">
+                                <a href="javascript:void(0);">{text:APINavigationName}</a>
+                                <ul class="dropdown">
+                                    {block:IfAPIOne}
+                                    <li><a href="/tagged/{text:APIOne}">{text:APIOne}</a>
+                                    
+                                    </li>
+                                    {/block:IfAPIOne}
+                                    {block:IfAPITwo}
+                                    <li><a href="/tagged/{text:APITwo}">{text:APITwo}</a>
+                                    </li>
+                                    {/block:IfAPITwo}
+                                    {block:IfAPIThree}
+                                    <li><a href="/tagged/{text:APIThree}">{text:APIThree}</a>
+                                    </li>
+                                    {/block:IfAPIThree}
+                                    {block:IfAPIFour}
+                                    <li><a href="/tagged/{text:APIFour}">{text:APIFour}</a>
+                                    </li>
+                                    {/block:IfAPIFour}
+                                    {block:IfAPIFive}
+                                    <li><a href="/tagged/{text:APIFive}">{text:APIFive}</a>
+                                    </li>
+                                    {/block:IfAPIFive}
+                                    {block:IfAPISix}
+                                    <li><a href="/tagged/{text:APISix}">{text:APISix}</a>
+                                    </li>
+                                    {/block:IfAPISix}
+                                    {block:IfAPISeven}
+                                    <li><a href="/tagged/{text:APISeven}">{text:APISeven}</a>
+                                    </li>
+                                    {/block:IfAPISeven}
+                                    {block:IfAPIEight}
+                                    <li><a href="/tagged/{text:APIEight}">{text:APIEight}</a>
+                                    </li>
+                                    {/block:IfAPIEight}
+                                    {block:IfAPINine}
+                                    <li><a href="/tagged/{text:APINine}">{text:APINine}</a>
+                                    </li>
+                                    {/block:IfAPINine}
+                                    {block:IfAPITen}
+                                    <li><a href="/tagged/{text:APITen}">{text:APITen}</a>
+                                    </li>
+                                    {/block:IfAPITen}
+                                   
+                                </ul> 
+                            </li>
+                            
+                                {block:HasPages}
+                            {block:Pages}
+                            <li><a href="{URL}">{Label}</a>
+                            </li>
+                            {/block:Pages}
+                            {/block:HasPages}
+<li><a href="https://meraki.cisco.com/support">Support</a></li><li><a href="https://meraki.cisco.com/form/contact">Contact Sales</a></li>
+                              
+                               {block:SubmissionsEnabled}
+                             <li class="show-for-medium-only"><a href="/submit" title="{SubmitLabel}">{SubmitLabel}</a>
+                            </li>
+                            {/block:SubmissionsEnabled}
+                               {block:AskEnabled}
+                            
+                            <li class="show-for-medium-only"><a href="/ask" class="{AskLabel}">{AskLabel}</a></li>
+                            {/block:AskEnabled}
+                            
+                        
+                               </ul>
+
+                       
+                            </li>
+
+
+                        </ul>
+                    </section>
+                    
+ <section id="headerlinks">
+  <!-- Right Nav Section -->
+<ul class="headerlinks">
+<li><a  href="https://account.meraki.com/secure/login/dashboard_login">Dashboard</a></li>
+<li class="hide-for-medium-only"><a href="https://meraki.cisco.com/support">Support</a></li>
+<li class="hide-for-medium-only"><a href="https://meraki.cisco.com/form/contact">Sales</a></li>
+</ul> 
+                    </section>
+
+
+       
+                </nav>
+            </div>
+            <!--contain to grid -->
+        </div>
+        
+        
+        
+    {block:IndexPage} 
+        {block:IfContentSlider}
+        <div class="small-12 medium-12 large-12 columns" id="rotator-container">
+            <ul id="slided-posts" data-orbit>
+                <li style="background-image: url('{image:Slide One Image}');">
+
+                    <div class="orbit-caption">
+                        <h2>{text:Caption One}</h2>
+                        <p class="intro-content">{text:Description One}</p>
+                        <p class="buttons">
+                            <a href="{text:URL One}" title="Read More - {text:Caption One}" class="button radius saint">Read More &gt;&gt;</a>
+                        </p>
+                    </div>
+                </li>
+                <li style="background-attachment: fixed;
+    background-position: center; background-image: url('{image:Slide Two Image}');">
+
+                    <div class="orbit-caption">
+                        <h2>{text:Caption Two}</h2>
+                        <p class="intro-content">{text:Description Two}</p>
+                        <p class="buttons">
+                            <a href="{text:URL Two}" title="Read More - {text:Caption Two}" class="button radius saint">Read More &gt;&gt;</a>
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('{image:Slide Three Image}');">
+
+                    <div class="orbit-caption">
+                        <h2>{text:Caption Three}</h2>
+                        <p class="intro-content">{text:Description Three}</p>
+                        <p class="buttons">
+                            <a href="{text:URL Three}" title="Read More - {text:Caption Three}" class="button radius saint">Read More &gt;&gt;</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        {/block:IfContentSlider}
+    {/block:IndexPage}
+    </header>
+    
+<section id="{block:IndexPage}home-page-content-container{/block:IndexPage}{block:PermalinkPage}single-page-content-container{/block:PermalinkPage}" style="background-color:fafafa;">
+    <div id="container" >
+        <div class="row" data-equalizer data-equalizer-mq="medium-up">
+            <div class="small-12 {block:ifShowSidebar} medium-7 large-9{/block:ifShowSidebar} {block:ifNotShowSidebar} medium-12 large-12 {/block:ifNotShowSidebar}columns left-content-pane" {block:ifShowSidebar}data-equalizer-watch{/block:ifShowSidebar}>
+            {block:SearchPage}
+                <div class="extra-content-header-container">
+                    <h2>
+                        {lang:SearchResultCount results for SearchQuery}
+                        {block:NoSearchResults}{lang:No search results for SearchQuery}{/block:NoSearchResults}
+                    </h2>
+                </div>
+            {/block:SearchPage}
+            {block:TagPage}
+                <div class="extra-content-header-container" >
+                    
+                        <h1>&nbsp;&gt;&nbsp;{Tag}</h1>
+                    
+                </div>
+            {/block:TagPage}
+            {block:Posts}
+             <div class="{block:TagPage} tag_page {/block:TagPage}{block:PermalinkPage}perma_page{/block:PermalinkPage}" style="background-color:fafafa;"> 
+           
+                <div class="{block:TagPage} tag_page {/block:TagPage}{block:PermalinkPage}perma_page{/block:PermalinkPage} row {block:Text}type-post{/block:Text} {block:Photoset}type-image imaged-photoset{/block:Photoset} {block:Photo}type-image{/block:Photo} {block:RebloggedFrom}rebloggedfrom{/block:RebloggedFrom}{block:Quote}type-quote{/block:Quote} {block:Link}type-link{/block:Link} {block:Chat}type-chat{/block:Chat} {block:Audio}type-audio{/block:Audio} {block:Video}type-video{/block:Video} {block:Answer}type-post type-post-answer{/block:Answer}" style="margin-bottom:0rem!important;margin-top:0rem!important;background-color:fafafa;">
+               
+                        
+                            
+                            <div class="row" itemscope itemtype="http://schema.org/Article">
+                            
+                      <article class=" small-12 columns" itemprop="articleSection" content="article">
+                            <div class="tumblr-tags-box  text-right" style="float: right; margin: 0 0 10px 10px;"> {block:Tags}
+                        <a href="{TagURL}" title="{tag}" class="tiny button radius tagbutt">{tag}</a>
+                    {/block:Tags}<a itemprop="url" content="{Permalink}" href="{Permalink}">
+<i class="fa fa-tag " style="padding:1rem;font-size:0.8rem;"> </i> </a>
+                            </div>
+                            {block:Text}
+
+                                {block:Title}
+                                   {block:IndexPage}
+                                   <h2 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a>
+                                    </h2>{/block:IndexPage}{block:PermalinkPage}<h1 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a></h1>{/block:PermalinkPage}
+
+                                {/block:Title}
+                                
+                                {block:Body}
+                                <div class="type-post-content" itemprop="articleBody">
+                                    {Body}
+                                    
+                                </div>
+                                {/block:Body}
+
+                                
+                            {/block:Text}
+                            
+                            {block:Photo}
+                                
+                                   {block:Caption}
+                                    <div class="captions">
+                                        {Caption}
+                                        
+                                    </div>
+                                    {/block:Caption}
+                                
+                                <div class="type-post-content text-center" itemprop="articleBody">
+                                   {LinkOpenTag} <img src="{PhotoURL-HighRes}"  alt="{PhotoAlt}" />{LinkCloseTag}
+                                     
+                            {/block:Photo}
+                            
+                            {block:Photoset}
+                           
+                                
+                                
+                                <div class="type-post-content" itemprop="articleBody">
+                                   {block:Caption}
+                                    <div class="captions">
+                                        {Caption}
+                                     
+                                    </div>
+                                    {/block:Caption}
+                                    <ul class="clearing-thumbs text-center" data-clearing data-equalizer>
+                                   {block:Photos}
+                                         
+                                    <li class="photo-set-image-container">
+                                    <a href="{PhotoURL-HighRes}" title="Photoset Image" data-equalizer-watch><img src="{PhotoURL-HighRes}" class="in-photo-set" alt="{PhotoAlt}" /></a>
+                                    </li>
+                                   {/block:Photos}
+                                   
+                                   </ul>
+                                      
+                            {/block:Photoset}
+                            
+                            {block:Quote}
+                                <blockquote class="text-center" itemprop="articleBody">"<a itemprop="url" content="{Permalink}" href="{Permalink}" title="Quote">{Quote}</a>"
+                                </blockquote>
+                                <div class="type-post-content">
+                                    <div class="captions text-right">
+                                        {block:Source}
+                                            {Source}
+                                        {/block:Source}
+                                    </div>
+
+
+                                </div>
+                                 
+                            {/block:Quote}  
+                            {block:Link}
+                            <h2 itemprop="name"><a itemprop="url" content="{Permalink}" {Target} href="{URL}">{Name} <i class="fa fa-external-link">&nbsp;</i></a>
+                                </h2>
+                                <div class="type-post-content" itemprop="articleBody">
+                                    <div class="captions">
+                                    {block:Host}
+                                                    <span class="link-host">{Host}</span> {/block:Host}{block:Description}<div class="caption">
+                                            {Description}
+                                        </div>
+                                        {/block:Description}
+                                        
+                                    </div>
+
+
+                                </div>
+                                 
+                       {/block:Link}                 
+                        {block:Chat}
+                             {block:IndexPage}<h2 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a>
+                                    </h2>{/block:IndexPage}{block:PermalinkPage}<h1 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a></h1>{/block:PermalinkPage}
+                                            <ul class="no-bullet tumblr-chat" itemprop="articleBody">
+                                            {block:Lines}
+                                                <li class="{Alt}">{block:Label}<span class="chat-label">{Label}</span>{/block:Label} {Line}</li>
+                                            {/block:Lines}
+                                            </ul>
+                                          
+                        {/block:Chat}         
+                        
+                        {block:Audio}
+                            
+                                <div class="type-post-content" itemprop="articleBody">
+                                {block:AlbumArt} <img src="{AlbumArtURL}" class="full-width-image main-image" alt="Album Art" /> {/block:AlbumArt}
+                                {block:AudioEmbed}
+                                    <div class="audiowrapper">
+                                        
+                                            {AudioEmbed}
+                                        
+                                    </div>
+                                {/block:AudioEmbed}
+                                {block:AudioPlayer}
+                                <div class="audiowrapper" >
+                                    {AudioPlayerBlack}
+                                </div>
+                                {/block:AudioPlayer}
+
+                                {block:ExternalAudio} 
+                                    <div class="external-audio-link">
+                                        <a itemprop="url" content="{Permalink}" href="{ExternalAudioURL}" title="External Audio Link" target="_blank">External Audio Link</a>
+                                    </div>
+                                {/block:ExternalAudio}
+                                        {block:Caption}
+                                    <div class="captions">
+                                        {Caption}
+                                    </div>
+                                         {/block:Caption}
+                                    <div class="permalink-article-p text-right"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{block:Artist}{Artist} - {/block:Artist} {block:Album}{Album} - {/block:Album} {block:TrackName}{TrackName} - {/block:TrackName} Audio Track"><i class="fa fa-volume-up"> Audio {block:PlayCount} <br><u>Playcount</u>: {FormattedPlayCount} <br> {/block:PlayCount} {block:Artist}{Artist} <u>Artist</u>:  <br> {/block:Artist} {block:Album} <u>Album</u>: {Album} <br> {/block:Album} {block:TrackName} <u>Track</u>: {TrackName} <br> {/block:TrackName}  Permalink </i></a></div>
+                                        
+                                </div>
+                        {/block:Audio}
+                        
+                        {block:Video}
+                            {block:Caption}
+                                    <div class="captions"> 
+                                        {Caption}
+                                    </div>
+                                    {/block:Caption}
+                                
+                                <div class="type-post-content" itemprop="articleBody">
+                                    <div class="videowrapper">
+                                        {Video-700}
+                                    </div>
+                                    
+                                     
+                                </div>
+                        {/block:Video}
+                                              
+                        {block:Answer}
+                                       <div class="type-post-content">
+                                            <div class="asker-div">
+                                                <img class="left-aligned-image" src="{AskerPortraitURL-128}" alt="{Asker} Avatar"><p class="asker"><strong>{Asker}</strong> asked: <br> <h5 itemprop="name">Q: <em>{Question}</em></h5></p>
+                                                
+                                            </div>
+                                            {block:Answerer}
+                                            <div class="answerer-div" itemprop="articleBody">
+                                                <img class="left-aligned-image" src="{AnswererPortraitURL-128}" alt="{Answerer} Avatar"><div class="answerer"><p><strong>{Answerer}</strong> answered:</p>
+                                                {Answer}
+                                            </div>
+                                            {/block:Answerer}    
+                                            <div class="replies">
+                                            <h5><u>Replies</u>:</h5>
+                                            {Replies}
+                                            </div>
+  
+                                    </div>
+                        {/block:Answer}   
+                        
+        
+                         {block:RebloggedFrom}
+                                        <div class="permalink-article-p text-right">
+                                           
+                                                    <a class="reblog-link" href="{ReblogParentURL}">Reblogged From: {ReblogParentName}</a>
+                                                
+                                                {block:ContentSource}
+                                                <br>
+                                                    <a class="source-link" href="{SourceURL}">{lang:Source}: {SourceTitle}</a>
+                                                
+                                                {/block:ContentSource}
+                                                
+                                            
+                                        </div>
+                        {/block:RebloggedFrom}
+                        
+                        {block:NotReblog}
+                             <div class="permalink-article-p text-right">
+                    
+                                                
+                                                {block:ContentSource}
+                                             
+                                                    <a class="source-link" href="{SourceURL}">{lang:Source}: {SourceTitle}</a>
+                                                
+                                                {/block:ContentSource}
+                                                
+                                            
+                                        </div>
+                        {/block:NotReblog}
+
+                        {block:PermalinkPage}
+                        
+
+                        {/block:PermalinkPage}
+                        
+                        {block:HasTags}
+                          {block:IfNotDisqusCommenting}
+                             
+                                <div class="tumblr-tags-box">
+                                    <i class="fa fa-tag " style="padding:1rem;font-size:0.8rem;"> Categories: </i>  {block:Tags}
+                        <a href="{TagURL}" title="{tag}" class="tiny button radius tagbutt">{tag}</a>
+                    {/block:Tags}
+                                </div>
+                                  {/block:IfNotDisqusCommenting}
+                        {/block:HasTags}
+                        
+                                <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name" content="{text:Meta Author}"></span></span>
+                                
+                        </div>
+                        
+                        {block:IfNotDisqusCommenting}
+                        <div class="row">
+
+                            <div class="small-12 medium-12 large-4 columns tumblr-socialed">
+                                <a href="https://plus.google.com/share?url={PermaLink}" title="Share this post on Google Plus" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={PermaLink}" title="Share this post on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                <a href="https://twitter.com/home?status={block:PostSummary}{PostSummary}{/block:PostSummary} - {PermaLink}" title="Share this post on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                                <a href="http://www.reddit.com/submit?url={PermaLink}" title="Share this post on Reddit" target="_blank"><i class="fa fa-reddit-square fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={PermaLink}&title={block:PostTitle}{PostTitle}{/block:PostTitle}&summary={block:PostSummary}{PostSummary}{/block:PostSummary}&source=" title="Share this post on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                <a href="https://pinterest.com/pin/create/button/?url={PermaLink}&media={PortraitURL-128}&description={block:PostTitle}{PostTitle}{/block:PostTitle}" title="Share this post on Pinterest" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
+                                <a href="http://digg.com/submit?url={PermaLink}&title={block:PostTitle}{PostTitle}{/block:PostTitle}" title="Share this post on Digg" target="_blank"><i class="fa fa-digg fa-2x"></i></a>
+                            </div>
+                            <div class="small-12 medium-12 large-4 columns tumblr-comments-no text-center">
+
+                               &nbsp;
+                            </div>
+
+
+                            <div class="small-12 medium-12 large-4 columns tumblr-socialed text-right">
+                                <div class="tumblr-comments-no reblog-like-button right">
+                                    <a class="dsq-comment-count fa fa-comments" href="{Permalink}" title="View Comments">View Comments </a>   <a href="{Permalink}" title="View Notes" class="fa fa-heart"> {NoteCountWithLabel}</a> 
+                            {block:Date}
+                                <br>
+                                <small>
+                                    <i class="fa fa-clock-o" itemprop="datePublished" content="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24HourWithZero}:{Minutes}"> published on {DayOfMonthWithZero} {ShortMonth}, {Year}.</i>
+                                </small>
+                            {/block:Date}
+                                </div>
+                               <div class="reblog-like-button right">
+                                   {ReblogButton size="30"}
+                               </div> 
+                                <div class="reblog-like-button right">
+                                    {LikeButton size="30"}
+                                </div>
+                            </div>
+                        </div>
+                           {/block:IfNotDisqusCommenting} 
+
+                </article> 
+                            
+                    </div> 
+                    
+                </div>
+
+            {/block:Posts}
+                
+            {block:Pagination}
+                <section class="row" id="paging-box">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div class="pagination-centered">
+                                <ul class="pagination">
+                                {block:PreviousPage}
+
+                                    <li class="arrow"><a href="{PreviousPage}" title="Previous Page - Newer Posts"><i class="fa fa-arrow-circle-left fa-lg"></i> Back</a>
+                                    </li>
+                                {/block:PreviousPage}
+                                
+
+                                    <li class="unavailable">&nbsp;</li>
+                                {block:NextPage}
+                                    <li class="arrow"><a href="{NextPage}" title="Next Page - Older Posts">More <i class="fa fa-arrow-circle-right fa-lg"></i></a>
+                                    </li>
+                                {/block:NextPage}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </section>
+                
+            {/block:Pagination}
+            
+            </div>
+            {block:ifShowSidebar}
+            <div class="small-12 medium-5 large-3 columns" data-equalizer-watch>
+                <aside{block:PermalinkPage} class="single-page-aside"{/block:PermalinkPage}>
+                    <div class="row" id="about-me-sidebar">
+                        <div class="small-12 columns">
+                            {block:ShowAvatar} 
+                            <div id="avatar-photo">
+                                <img src="{PortraitURL-128}" width="128" alt="{User} Avatar" />
+                            </div>
+                            {/block:ShowAvatar} 
+                            {block:ShowDescription}
+                            <div id="avatar-photo-bio-down">
+                            {block:ShowAvatar} 
+                                <div id="round-cut-shape">&nbsp;</div>
+                            {/block:ShowAvatar} 
+                                <div id="bio-cv">
+                                    {Description}
+                                </div>
+                            </div>
+                        </div>
+                        {/block:ShowDescription}
+
+                    </div>
+                    {block:ifShowSocialDropdown}
+                    <div class="row" id="social-home">
+                        <div class="small-12 columns">
+
+                            <a href="#" data-dropdown="social-drop" aria-controls="drop1" aria-expanded="false" class="expand button dropdown">Find Me At:</a>
+                            
+                            <ul id="social-drop" data-dropdown-content class="f-dropdown social-d" aria-hidden="true" tabindex="-1">
+                            {block:IfTwitterLink}
+                                <li><a target="_blank" href="{text:Twitter Link}" title="Twitter"><i class="fa fa-twitter-square fa-lg"> <span>Twitter</span></i></a>
+                            {/block:IfTwitterLink}
+                            {block:IfFBLink}
+                                    <li><a target="_blank"  href="{text:FB Link}" title="Facebook"><i class="fa fa-facebook-square fa-lg"> <span>Facebook</span></i></a></li>
+                             {/block:IfFBLink}
+                             {block:IfPinterestLink}
+                                     <li><a target="_blank"  href="{text:Pinterest Link}" title="Pinterest"><i class="fa fa-pinterest-square fa-lg"> <span>Pinterest</span></i></a></li>
+                            {/block:IfPinterestLink}
+                            {block:IfBehanceLink}
+                                      <li><a target="_blank"  href="{text:Behance Link}" title="Behance"><i class="fa fa-behance-square fa-lg"><span> Behance</span></i></a></li>
+                            {/block:IfBehanceLink}
+                            {block:IfBitBucketLink}
+                                      <li><a target="_blank"  href="{text:BitBucket Link}" title="Bitbucket"><i class="fa fa-bitbucket-square fa-lg"><span> BitBucket</span></i></a></li>
+                            {/block:IfBitBucketLink}
+                            {block:IfDecliciousLink}
+                            
+                                      <li><a target="_blank"  href="{text:Declicious Link}" title="Delicious"><i class="fa fa-delicious fa-lg"><span> Delicious</span></i></a>
+                            {/block:IfDecliciousLink}
+                            {block:IfDeviantArtLink}
+                                      <li><a target="_blank"  href="{text:DeviantArt Link}" title="DeviantArt"><i class="fa fa-deviantart fa-lg"><span> DeviantArt</span></i></a>
+                            {/block:IfDeviantArtLink}
+                            {block:IfGithubLink}
+                                      <li><a target="_blank"  href="{text:Github Link}" title="GitHub"><i class="fa fa-github-square fa-lg"><span> GitHub</span></i></a></li>
+                            {/block:IfGithubLink}
+                            {block:IfGooglePlusLink}
+                                      <li><a target="_blank"  href="{text:GooglePlus Link}" title="Google Plus"><i class="fa fa-google-plus-square fa-lg"><span> Google Plus</span></i></a></li>
+                            {/block:IfGooglePlusLink}
+                            {block:IfInstagramLink}
+                                      <li><a target="_blank"  href="{text:Instagram Link}" title="Instagram"><i class="fa fa-instagram fa-lg"><span> Instagram</span></i></a></li>
+                            {/block:IfInstagramLink}
+                            {block:IfLastfmLink}
+                                      <li><a target="_blank"  href="{text:Lastfm Link}" title="Last.fm"><i class="fa fa-lastfm-square fa-lg"><span> Last.fm</span></i></a></li>
+                            {/block:IfLastfmLink}
+                            {block:IfLinkedInLink}
+                                      <li><a target="_blank"  href="{text:LinkedIn Link}" title="LindedIn"><i class="fa fa-linkedin-square fa-lg"><span> LinkedIn</span></i></a></li>
+                            {/block:IfLinkedInLink}
+                            {block:IfRedditLink}
+                                      <li><a target="_blank"  href="{text:Reddit Link}" title="Reddit"><i class="fa fa-reddit-square fa-lg"><span> Reddit</span></i></a></li>
+                            {/block:IfRedditLink}
+                            {block:IfSkypeLink}
+                                      <li><a target="_blank"  href="{text:Skype Link}" title="Skype"><i class="fa fa-skype fa-lg"><span> Skype</span></i></a></li>
+                            {/block:IfSkypeLink}
+                                            
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    {/block:ifShowSocialDropdown}
+                    {block:IfCustomSidebarOneContent}
+                    <div class="row custom-text">
+                        <div class="small-12 columns">
+                            <h3>{text:Custom Sidebar One Title}</h3>
+                            <p>{text:Custom Sidebar One Content}</p>
+                        </div>
+                    </div>
+                    {/block:IfCustomSidebarOneContent}
+                   {block:IfCustomSidebarTwoContent}
+                    <div class="row custom-text">
+                        <div class="small-12 columns">
+                            <h3>{text:Custom Sidebar Two Title}</h3>
+                            <p>{text:Custom Sidebar Two Content}</p>
+                        </div>
+                    </div>
+                    {/block:IfCustomSidebarTwoContent}
+
+                   
+                    {block:Twitter}
+                        <div id="twitter" style="display:none;">
+                             <h3>Latest Tweets</h3>
+
+                            <ul id="tweets" class="no-bullet"></ul>
+                        </div>
+
+    
+                    {/block:Twitter}
+
+
+
+                    
+                    {block:If500pxUsername}
+                    <div class="row custom-text" id="500px-containter" style="display:none;">
+                        <div class="small-12 columns">
+                            <h3>{text:500px Title}</h3>
+                            <ul id="sidebar-500px" class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    {/block:If500pxUsername}
+                    
+                    {block:IfInstagramToken}
+                    {block:IfInstagramUserID}
+                    <div class="row custom-text" id="Instagram-Container"  style="display:none;">
+                        <div class="small-12 columns">
+                            <h3>{text:Instagram Title}</h3>
+                             <ul id="instafeed" class="small-block-grid-3 medium-block-grid-3 large-block-grid-3"></ul>
+                        </div>
+                    </div>
+                    {/block:IfInstagramUserID}
+                    {/block:IfInstagramToken}
+                
+                     {block:IfCustomSidebarThreeContent}
+                    <div class="row custom-text">
+                        <div class="small-12 columns">
+                            <h3>{text:Custom Sidebar Three Title}</h3>
+                            <p>{text:Custom Sidebar Three Content}</p>
+                        </div>
+                    </div>
+                    {/block:IfCustomSidebarThreeContent}
+
+                    {block:IfCustomSidebarFourContent}
+                    <div class="row custom-text">
+                        <div class="small-12 columns">
+                            <h3>{text:Custom Sidebar Four Title}</h3>
+                            <p>{text:Custom Sidebar Four Content}</p>
+                        </div>
+                    </div>
+                    {/block:IfCustomSidebarFourContent}
+                    {block:IfCustomSidebarFiveContent}
+                    <div class="row custom-text">
+                        <div class="small-12 columns">
+                            <h3>{text:Custom Sidebar Five Title}</h3>
+                            <p>{text:Custom Sidebar Five Content}</p>
+                        </div>
+                    </div>
+                    {/block:IfCustomSidebarFiveContent}
+
+                </aside>
+               
+            </div>
+            {/block:ifShowSidebar}
+        </div>
+    </section>
+    <footer>
+    {block:IfShowFooterLayerOne}
+        <div class="row">
+            <div class="small-12 columns">
+        {block:IfShowAboutFooterColumn}
+            <div class="text-center one-four-col">
+                <div class="column-content column-content-first">
+                    <i class="fa fa-info fa-lg"></i>
+                    <h4>{text:About Footer Title}</h4>
+                    <p>
+                        {text:About Footer Text}
+                    </p>
+                </div>
+            </div>
+        {/block:IfShowAboutFooterColumn}
+        {block:IfShowLikedPosts}
+        {block:Likes}
+            <div class="text-center one-four-col">
+                <div class="column-content">
+                    <i class="fa fa-thumbs-o-up fa-lg"></i>
+                    <h4>Liked Posts</h4>
+                    
+                        
+                        
+                        {Likes limit="1" summarize="100" width="50"}
+                        
+                        <p>
+                            <a href="http://www.tumblr.com/liked/by/{Name}" target="_blank" title="Stuff I like on Tumblr">
+                    See more stuff I like
+                </a>
+                        </p>
+                    
+                </div>
+            </div>
+        {/block:Likes}    
+        {/block:IfShowLikedPosts}
+        {block:IfShowTagsFooterColumn}
+            <div class="text-center one-four-col">
+                <div class="column-content">
+                    <i class="fa fa-tag fa-lg"></i>
+                    <h4>Tags</h4>
+                    <p>
+                       {block:IfTagOne}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagOne}">{text:TagOne}</a>
+                                    
+                                    
+                                    {/block:IfTagOne}
+                                    {block:IfTagTwo}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagTwo}">{text:TagTwo}</a>
+                                    
+                                    {/block:IfTagTwo}
+                                    {block:IfTagThree}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagThree}">{text:TagThree}</a>
+                                    
+                                    {/block:IfTagThree}
+                                    {block:IfTagFour}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagFour}">{text:TagFour}</a>
+                                    
+                                    {/block:IfTagFour}
+                                    {block:IfTagFive}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagFive}">{text:TagFive}</a>
+                                    
+                                    {/block:IfTagFive}
+                                    {block:IfTagSix}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagSix}">{text:TagSix}</a>
+                                    
+                                    {/block:IfTagSix}
+                                    {block:IfTagSeven}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagSeven}">{text:TagSeven}</a>
+                                    
+                                    {/block:IfTagSeven}
+                                    {block:IfTagEight}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagEight}">{text:TagEight}</a>
+                                    
+                                    {/block:IfTagEight}
+                                    {block:IfTagNine}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagNine}">{text:TagNine}</a>
+                                    
+                                    {/block:IfTagNine}
+                                    {block:IfTagTen}
+                                    <a class="tiny button radius tagbutt" href="/tagged/{text:TagTen}">{text:TagTen}</a>
+                                    
+                                    {/block:IfTagTen} 
+                    </p>
+                </div>
+            </div>
+        {/block:IfShowTagsFooterColumn} 
+        {block:IfShowBlogsYouFollow}
+        {block:Following}
+            <div class="text-center one-four-col">
+                <div class="column-content column-content-last">
+                    <i class="fa fa-heart fa-lg"></i>
+                    <h4>Blogs I follow</h4>
+                    
+                       
+   
+    <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-3 follower-list-li">{block:Followed}
+            <li>
+                <a href="{FollowedURL}" title="{FollowedName}" target="_blank"><img src="{FollowedPortraitURL-64}" alt="{FollowedName}"/></a>
+                
+            </li>{/block:Followed}
+    </ul>
+                    
+                </div>
+            </div>
+            {/block:Following}
+            {/block:IfShowBlogsYouFollow}
+            </div>
+        </div>
+    {/block:IfShowFooterLayerOne}
+    {block:IfShowLinksFooterRow}
+        <div class="row footer-bottom-links">
+            <div class="small-12 columns text-center">
+                <i class="fa fa-chain fa-lg"></i>
+                <br>
+                <ul class="small-block-grid-2 medium-block-grid-4 text-center">
+                    <li>
+ <a href="{text:Footer Link One URL}" target="_blank" class="button radius small saint">{text:Footer Link One Text}</a> 
+ </li>
+ <li>
+ <a href="{text:Footer Link Two URL}" target="_blank" class="button radius small saint">{text:Footer Link Two Text}</a> 
+ </li>
+ <li>
+ <a href="{text:Footer Link Three URL}" target="_blank" class="button radius small saint">{text:Footer Link Three Text}</a> 
+ </li>
+ <li>
+ <a href="{text:Footer Link Four URL}" target="_blank" class="button radius small saint">{text:Footer Link Four Text}</a> 
+ </li>
+                    
+
+                </ul>
+            </div>
+        </div>
+    {/block:IfShowLinksFooterRow}    
+        
+        <div class="row footer-main">
+        {block:IfShowCreditInFooter}
+            <div class="small-12 columns text-center">
+                <p><small>  <a href="https://meraki.cisco.com/support/#policies:privacy">Privacy</a> | <a href="https://meraki.cisco.com/support/#policies:tou">Terms of Use</a> | <a href="https://meraki.cisco.com/blog">Blog</a> | <a href="https://meraki.cisco.com/jobs">Jobs</a>
+                </ul>               </small><span>
+                &copy; {CopyrightYears} {text:Footer Credit}</span>
+                </p>
+                
+            </div>
+        {/block:IfShowCreditInFooter}
+        {block:IfGiveKudosToSojourner}
+            <div class="small-12 columns text-center">
+                <small>Design by <a href="http://sojourner.co" target="_blank" title="Sojourner.co">Sojourner</a>.</small>
+            </div>
+        {/block:IfGiveKudosToSojourner}
+        </div>
+    </footer>
+    
+    
+    <div id="go-to-top">
+        <a href="#top-of-page"><i class="fa fa-long-arrow-up"></i></a>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vp1f6hg/3pqnf4jk3/jquery.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vp1f6hg/jLbnf4k02/modernizr.js"></script>
+        <script src="http://static.tumblr.com/vp1f6hg/lbpnf4jev/foundation.min.js"></script>
+        {block:ifShowSidebar}
+        {block:If500pxUsername}
+        <script src="http://static.tumblr.com/vp1f6hg/ogCnfg8b2/500pxapi.js"></script>
+        {/block:If500pxUsername}
+        {block:IfInstagramToken}
+        <script src="http://static.tumblr.com/vp1f6hg/AkBnfgf95/instafeed.js"></script>
+        {/block:IfInstagramToken}
+        {/block:ifShowSidebar}
+       {block:IfCodeHighlighting}
+       <script src="http://static.tumblr.com/vp1f6hg/xVMnh2s62/prism.js"></script>
+       {/block:IfCodeHighlighting}
+       
+    <script text="text/javascript">
+     {block:ifShowSidebar}{block:Twitter}
+     function recent_tweets(e){var t=e.length>5?5:e.length;for(i=0;i<t;i++){document.getElementById("tweets").innerHTML=document.getElementById("tweets").innerHTML+'<li><a target="_blank" href="http://twitter.com/{TwitterUsername}/status/'+(e[i].id_str?e[i].id_str:e[i].id)+'"><div class="content">'+e[i].text+"</div></a></li>"}document.getElementById("twitter").style.display="block"}
+     {/block:Twitter} {/block:ifShowSidebar}
+   $(document).foundation({{block:IndexPage}orbit:{resume_on_mouseout:true,animation:"fade",timer_speed:6e3,animation_speed:400,stack_on_small:false,navigation_arrows:true,slide_number:false,pause_on_hover:true,timer:true,variable_height:false},{/block:IndexPage} topbar:{scrolltop:false}});
+    $(document).ready(function(){
+        
+         {block:IndexPage} 
+        {block:IfContentSlider}
+     var paginated="{block:Pagination}{CurrentPage}{/block:Pagination}";var tsearchpage="{block:SearchPage}1{/block:SearchPage}";var ttagpage="{block:TagPage}1{/block:TagPage}";var tdaypages="{block:DayPages}1{/block:DayPages}";if(paginated>1||tsearchpage=="1"||ttagpage=="1"||tdaypages=="1"){var headerNode=document.getElementsByTagName("header")[0];headerNode.className+=" single-page";var Relement=document.getElementById("rotator-container");headerNode.removeChild(Relement)}else{$("#rotator-container").show();$(window).scroll(function(){if(($(window).height()<$(window).scrollTop())){$("#rotator-container").hide();}else{$("#rotator-container").show();};});}
+     
+         {/block:IfContentSlider}
+       {/block:IndexPage} 
+       {block:PermalinkPage} 
+       if($("img.main-image:first").length!=0){var main_img=$("img.main-image:first");var main_img_src=main_img.attr("src");if(main_img_src!=""&&main_img_src!="undefined"){$("#main-image-holder").removeClass("backgroundtop");backcss="url("+main_img_src+") no-repeat center center fixed";$("div#main-image-holder").css("background-image",'url("'+main_img_src+'")');$("#main-image-holder").addClass("backgroundtop");main_img.hide()}}else{$("#main-image-holder").remove();$("#single-page-content-container").css("padding-top","0");$("#single-page-content-container").css("margin-top","2.5rem");$("#single-page-content-container article > h2").css("margin-top","0rem");$("#single-page-content-container article > h1").css("margin-top","0rem")}
+       {/block:PermalinkPage} 
+     $(document.body).on("closed.fndtn.clearing", function(event) {$("div.corousel").show();});$(document.body).on("opened.fndtn.clearing", function(event) {$("div.corousel").hide();$("ul.clearing-thumbs").hide();
+   });
+
+
+    {block:IfShowFooterLayerOne}
+        var colslen=$(".one-four-col").length;var pcoltage=100/parseInt(colslen);pcoltage=pcoltage.toString()+"%";$(".one-four-col").each(function(){$(this).width(pcoltage)});
+    {/block:IfShowFooterLayerOne}
+    
+    });
+ 
+   
+     
+// Listen for orientation changes
+     window.addEventListener("orientationchange",function(){if((window.orientation==90||window.orientation==-90)&&innerWidth<=640){$("p.intro-content").hide()}else{$("p.intro-content").show()}},false);
+
+
+
+    </script>
+    <script src="https://raw.github.com/gist/2090021/tumblrGists.js" type="text/javascript"></script>
+    
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    </body>
+
+</html>
+    <!--home page container ends here-->
+    <!-- min-->
