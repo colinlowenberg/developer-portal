@@ -1,7 +1,8 @@
 <html class="no-js" lang="en">
     <head>
+
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-<script src="http://static.tumblr.com/fpifyru/VCxlv9xwi/writecapture.js"></script>
+ <script src="http://static.tumblr.com/fpifyru/VCxlv9xwi/writecapture.js"></script> 
 <script src="http://static.tumblr.com/fpifyru/AKFlv9zdu/embedgist.js"></script>
         {MobileAppHeaders}
         <meta charset="utf-8">
@@ -95,9 +96,12 @@
         <meta name="image:Header" content="https://38.media.tumblr.com/avatar_d093a126cf1c_128.png">
         <meta name="text:Meta Author" content="Minelienda.tumblr.com">
         
+        <meta name="text:About" content="About">
+        <meta name="text:BETA" content="BETA">
          <!-- Tag content variables -->
         <meta name="if:Tag Nav Enabled" content="1">
         <meta name="text:TagNavigationName" content="Categories">
+        <meta name="text:TopTen" content="">
         <meta name="text:TagOne" content="">
         <meta name="text:TagTwo" content="">
         <meta name="text:TagThree" content="">
@@ -108,8 +112,10 @@
         <meta name="text:TagEight" content="">
         <meta name="text:TagNine" content="">
         <meta name="text:TagTen" content="">
+        <meta name="text:SubmitName" content="Add your solution">
         
         <meta name="text:APINavigationName" content="APIs">
+        <meta name="text:StartName" content="Get Started">
         <meta name="text:APIOne" content="">
         <meta name="text:APITwo" content="">
         <meta name="text:APIThree" content="">
@@ -120,6 +126,7 @@
         <meta name="text:APIEight" content="">
         <meta name="text:APINine" content="">
         <meta name="text:APITen" content="">
+        <meta name="text:Questions" content="">
         
         <!-- Single Page Commenting System Rules -->
         <meta name="if:Disqus Commenting" content="1">
@@ -226,8 +233,9 @@ content="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{Perma
 <style>
     #container {
    position: relative;
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
+    letter-spacing: normal;
     /*
     background: #ffffff;
     box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
@@ -239,11 +247,12 @@ content="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{Perma
         color: {color:Text};
         background: #f9f9f9;
         
+    -webkit-font-smoothing: antialiased;
+        
     {block:IndexPage}
-    overflow-y:hidden;
+  /* overflow-y:hidden; */
     {/block:IndexPage}
     {block:TagPage} 
-    
     overflow-y:initial;
     {/block:TagPage}
     }
@@ -251,6 +260,7 @@ content="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{Perma
     h1, h2, h3, h4, h5, h6, article h2, article h2 a, .saint, a.read_more{
         font-family: {text:Title String} !important;
         color: {color:Title Color};
+        font-weight: 100;
     }
     .type-quote article blockquote a{
         font-family: {text:Blockquote String} !important;
@@ -262,16 +272,26 @@ content="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{Perma
         box-shadow: 0 2px 7px rgba(0,0,0,0.2);
         background: #fafafa;
         border-top: 2px solid #78be20;
+        letter-spacing: 1px;
+        padding-bottom:0rem;
     
     }
     
+skinny {
     
+        max-width:1280px!important;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+    margin-left: auto;
+    margin-right: auto;
+}
+
      .top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
         -webkit-box-shadow: 0px 5px 4px 0px {color:AccentColor};
         -moz-box-shadow:0px 5px 4px 0px {color:AccentColor};
         box-shadow:0px 5px 4px 0px {color:AccentColor};
         box-shadow: 0 2px 7px rgba(0,0,0,0.2);
         background: #fafafa;
+        letter-spacing: 1px;
         
     }
     .orbit-container .orbit-slides-container > * .orbit-caption {
@@ -424,8 +444,9 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
          color: {color:Single Page Heading Text};
     }
     {block:ifUppercaseTitles}
-        h1, h2, h3, h4, h5, h6{
+        h6{
             text-transform:uppercase;
+        font-weight: 900!important;
         }
     {/block:ifUppercaseTitles}
 
@@ -433,11 +454,12 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
 #headerlinks ul li{
     float:right;
     display: inline;
-    font-size: 12px;
-    padding: 10px 10px;
+    font-size: 13px;
+    padding: 0px 20px 0px 0px;
     text-decoration: none;
     color: {color:Navigation Text};
     text-align: center;
+    letter-spacing: normal;
         }
         
 #headerlinks ul li a{
@@ -450,19 +472,156 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
    {CustomCSS}
 
 
+.orbit-container .orbit-timer {
+}
+
+.orbit-container .orbit-timer>span {
+}
+.orbit-container .orbit-timer .orbit-progress {
+    background-color: #78be20!important;
+}
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
-    width: 216px;
-    height: 360px;
+    width: 70px;
+    height: 70px;
     color: white;
+    background-color: rgba(0,0,0,0.2);
+    background-color: #78be20;
+    top:10%;
+}
+
+.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover {
     background-color: rgba(0,0,0,0.2);
     
 }
 
-.orbit-container .orbit-prev>span {
-    left: 40%;
+.orbit-container .orbit-bullets-container {
+    background-color: #78be20!important;
 }
 
+.orbit-container .orbit-bullets-container .orbit-bullets{
+    background-color: #78be20!important;
+}
+
+.orbit-container .orbit-prev>span {
+    left: 20%;
+    top: 50%;
+}
+
+.f-topbar-fixed {
+    padding-top: 75px!important;
+}
+
+.button {
+    background-color: #3E96DB;
+    border-radius: 4px;
+}
+
+#container ul { 
+    list-style: none;
+    padding: 0;
+    margin:0px;
+    height: 100%:
+}
+
+#container .grid li { 
+    display: block;
+    text-align:left;
+    padding: 0;
+    float: left;
+    margin-left:0px;
+    height: 100%;
+    width: 100%;
+    max-width: 560px; 
+    color:white; 
+    margin-right:1%;
+    margin-bottom:5%;
+}
+#container .grid li a { 
+    float:left;
+    width: 100%;
+}
+
+#container .grid li a:hover{ 
+    text-decoration: underline;
+}
+
+.more{ 
+    float:right;
+    margin: 0!important;
+    padding: .7rem!important;
+    background-color: #3E96DB; 
+    color:white; 
+}
+
+#container .grid li a iframe{ 
+    height: 100%;
+    width: 100%;
+    min-height: 258px; 
+    margin-top: 20px;
+}
+#container .grid li iframe{ 
+    height: 100%;
+    width: 100%;
+    min-height: 315px;
+    margin-top: 0px;
+}
+
+
+div.type-post-content iframe#ask_form {
+    height: 550px!important;
+}
+
+.type-post-content h1, .type-post-content h2, .type-post-content h3, .type-post-content h4, .type-post-content h5, .type-post-content h6 {
+    padding: 0;
+    letter-spacing: 2px!important;
+    font-weight: 200;
+}
+#single-page-content-container article > h2, #single-page-content-container article > h1 {
+    padding: 0;
+}
+
+article>h2 {
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 2px!important;
+}
+
+.type-post-content h1 a, .type-post-content h2 a, .type-post-content h3 a, .type-post-content h4 a, .type-post-content h5 a, .type-post-content h6 a {
+}
+
+.type-post-content, div.captions, p.captions {
+    font-size: .9rem;
+    line-height: 1.4rem;
+    padding-top: 1.5rem;
+}
+h6 {
+    font-size: .7rem;
+    color: {color:Navigation Text};
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.top-bar-section ul {
+    margin-top: 0rem;
+    font-size: 0.6rem;
+}
+.top-bar .title-area {
+}
+.top-bar-section {
+    margin-top: 1.5rem;
+   
+}
+article p {
+    padding: 0rem;
+}
+#single-page-content-container article > h2, #single-page-content-container article > h1 {
+}
+
+#single-page-content-container article>h1, #single-page-content-container article>h2 {
+    width: 95%;
+}
 
     </style>
     
@@ -470,54 +629,47 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
     </head>
     
     <body data-urlencoded-name="{URLEncodedName}" >
-    {block:IfGoogleAnalyticsID}
-    <script>
-    
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '{text:Google analytics ID}', 'auto');
-  ga('send', 'pageview');
-
-</script>
-    {/block:IfGoogleAnalyticsID}
-    <header class="row {block:IndexPage} index-page{/block:IndexPage}{block:PermalinkPage} single-page{/block:PermalinkPage}{block:IfNotContentSlider} single-page{/block:IfNotContentSlider}">
+   
+    <header class="row {block:IndexPage} index-page{/block:IndexPage}{block:PermalinkPage} single-page{/block:PermalinkPage}{block:IfNotContentSlider} single-page{/block:IfNotContentSlider} fixed">
      
-        <a name="top-of-page"></a>
         <div class="small-12 medium-12 large-12 columns" id="nav-container">
-            <div class="sticky">
+            <div>
                 <div class="small-12 medium-12 large-12 columns top-color-bar-gradient" id="top-color-bar">
                 </div>
 
-
-        
-               
-                <nav class="top-bar" data-topbar role="navigation">
+                <nav class="top-bar" data-topbar role="navigation"  >
                     <ul class="title-area">
-                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{BlogURL}"><img src="{image:Header}" alt="Meraki" width="172" height="35" ><br></a>
-                       <!-- <li class="name">
-                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{BlogURL}">Developers </a>
-                        </li>
-                        -->
-                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                     &nbsp;&nbsp;&nbsp;&nbsp;<a class="logo" href="{BlogURL}"><img src="{image:Header}" alt="Meraki" width="172" height="35" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></a>
+                       
                         <li class="toggle-topbar menu-icon">
                             <a href="javascript:void(0);">
                                 <span>Menu</span>
                             </a>
                         </li>
+                        
                     </ul>
 
-                    <section class="top-bar-section">
+
+
                   
+ 
+ 
+                    <section class="top-bar-section">
+                
+
+                    
                         <!-- Left Nav Section -->
                         <ul class="left">
-
+ 
                         {block:ifTagNavEnabled}
                             <li class="hide-for-medium-only has-dropdown">
                                 <a href="javascript:void(0);"><h6>{text:TagNavigationName}</h6></a>
                                 <ul class="dropdown">
+                                {block:IfTopTen}
+                                    <li><a href="/top10">{text:TopTen}</a>
+                                    
+                                    </li>
+                                    {/block:IfTopTen}
                                     {block:IfTagOne}
                                     <li><a href="/tagged/{text:TagOne}/chrono">{text:TagOne}</a>
                                     
@@ -559,12 +711,16 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                                     <li><a href="/tagged/{text:TagTen}/chrono">{text:TagTen}</a>
                                     </li>
                                     {/block:IfTagTen}
+                                    
+                        <li><a href="/submit">{text:SubmitName}</a>
+                                    </li>
                                    
                                 </ul> 
                             </li>
                             <li class="hide-for-medium-only has-dropdown">
                                 <a href="javascript:void(0);"><h6>{text:APINavigationName}</h6></a>
                                 <ul class="dropdown">
+                                <li>
                                     {block:IfAPIOne}
                                     <li><a href="/tagged/{text:APIOne}">{text:APIOne}</a>
                                     
@@ -611,26 +767,28 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                             </li>
                         {/block:ifTagNavEnabled}
                         
-                        
-                        {block:AskEnabled}
-                        {block:SubmissionsEnabled}
-                             <li class="hide-for-medium-only"><a href="/submit" class="submit"><h6>{SubmitLabel}</h6></a>
-                            </li>
-                        {/block:SubmissionsEnabled}
-                            <li class="hide-for-medium-only"><a href="/ask" class="{AskLabel}"><h6>{AskLabel}</h6></a></li>
-                            {/block:AskEnabled}
+                        {block:IfAbout}<li class="hide-for-medium-only">
+ <a href="/about"><h6>{text:About}</h6></a>
+ </li>{/block:IfAbout}
                             
                             {block:HasPages}
                             {block:Pages}
-                            <li class="hide-for-medium-only"><a href="{URL}"><h6>{Label}</h6></a>
+                            <li class="hide-for-medium-only"><a href="{URL}" ><h6>{Label}</h6></a>
                             </li>
                             {/block:Pages}
                         {/block:HasPages}
+                        
+                        
                         
 
                             <li class="has-dropdown show-for-medium-only">
                                  <a href="javascript:void(0);"><h6>{text:TagNavigationName}</h6></a>
                                 <ul class="dropdown">
+                                {block:IfTopTen}
+                                    <li><a href="/top10">{text:TopTen}</a>
+                                    
+                                    </li>
+                                    {/block:IfTopTen}
                                 {block:IfTagOne}
                                     <li><a href="/tagged/{text:TagOne}/chrono">{text:TagOne}</a>
                                     
@@ -672,6 +830,9 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                                     <li><a href="/tagged/{text:TagTen}/chrono">{text:TagTen}</a>
                                     </li>
                                     {/block:IfTagTen}
+                                    
+                        <li><a href="/submit">{SubmitName}</a>
+                                    </li>
                                     
                                </ul>
                                </li>
@@ -726,44 +887,47 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                                    
                                 </ul> 
                             </li>
-                            
+                           <li>
+                                  
                                 {block:HasPages}
                             {block:Pages}
-                            <li><a href="{URL}">{Label}</a>
+                            <li><a href="{URL}" >{Label}</a>
                             </li>
                             {/block:Pages}
                             {/block:HasPages}
+                            
+                        {block:IfAbout}
+                            <li><a href="/about">{text:About}</a></li>{block:IfAbout}
 <li><a href="https://meraki.cisco.com/support">Support</a></li><li><a href="https://meraki.cisco.com/form/contact">Contact Sales</a></li>
                               
-                               {block:SubmissionsEnabled}
-                             <li class="show-for-medium-only"><a href="/submit" title="{SubmitLabel}">{SubmitLabel}</a>
-                            </li>
-                            {/block:SubmissionsEnabled}
-                               {block:AskEnabled}
-                            
-                            <li class="show-for-medium-only"><a href="/ask" class="{AskLabel}">{AskLabel}</a></li>
-                            {/block:AskEnabled}
+                               
+                               
                             
                         
                                </ul>
-
                        
                             </li>
-
-
+             {block:IfBETA}
+<li style="text-decoration:none;color:#78be20;margin-left:10px;">{text:BETA}</li>
+{block:IfBETA}
                         </ul>
+              
                     </section>
                     
- <section id="headerlinks">
-  <!-- Right Nav Section -->
+
+                        <!-- Right Nav Section -->
+<section id="headerlinks">
 <ul class="headerlinks">
-<li><a  href="https://account.meraki.com/secure/login/dashboard_login">Dashboard</a></li>
+
+<li class="hide-for-medium-only"><a  href="https://account.meraki.com/secure/login/dashboard_login">Login</a></li>
 <li class="hide-for-medium-only"><a href="https://meraki.cisco.com/support">Support</a></li>
 <li class="hide-for-medium-only"><a href="https://meraki.cisco.com/form/contact">Sales</a></li>
+<li><a>&nbsp;&nbsp;&nbsp;</a></li>
 </ul> 
-                    </section>
+</section>
 
-
+          
+             
        
                 </nav>
             </div>
@@ -775,35 +939,47 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
     {block:IndexPage} 
         {block:IfContentSlider}
         <div class="small-12 medium-12 large-12 columns" id="rotator-container">
-            <ul id="slided-posts" data-orbit>
-                <li style="background-image: url('{image:Slide One Image}');">
+            <ul data-orbit>
+                <li style="background-attachment: fixed; 
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-color: #ffffff;
+        background-image: url('{image:Slide One Image}');">
 
                     <div class="orbit-caption">
                         <h2>{text:Caption One}</h2>
                         <p class="intro-content">{text:Description One}</p>
                         <p class="buttons">
-                            <a href="{text:URL One}" title="Read More - {text:Caption One}" class="button radius saint">Read More &gt;&gt;</a>
+                            <a href="{text:URL One}" title="Read More - {text:Caption One}" class="button radius ">Get Started &gt;&gt;</a>
                         </p>
                     </div>
                 </li>
-                <li style="background-attachment: fixed;
-    background-position: center; background-image: url('{image:Slide Two Image}');">
+                <li style="background-attachment: fixed; 
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-image: url('{image:Slide Two Image}');">
 
                     <div class="orbit-caption">
                         <h2>{text:Caption Two}</h2>
                         <p class="intro-content">{text:Description Two}</p>
                         <p class="buttons">
-                            <a href="{text:URL Two}" title="Read More - {text:Caption Two}" class="button radius saint">Read More &gt;&gt;</a>
+                            <a href="{text:URL Two}" title="Read More - {text:Caption Two}" class="button radius">Read More &gt;&gt;</a>
                         </p>
                     </div>
                 </li>
-                <li style="background-image: url('{image:Slide Three Image}');">
+                <li style="background-attachment: fixed; 
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center 75px;
+        background-image: url('{image:Slide Three Image}');">
 
                     <div class="orbit-caption">
                         <h2>{text:Caption Three}</h2>
                         <p class="intro-content">{text:Description Three}</p>
                         <p class="buttons">
-                            <a href="{text:URL Three}" title="Read More - {text:Caption Three}" class="button radius saint">Read More &gt;&gt;</a>
+                            <a href="{text:URL Three}" title="Coming Soon - {text:Caption Three}" class="button radius">Coming Soon</a>
                         </p>
                     </div>
                 </li>
@@ -812,8 +988,8 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
         {/block:IfContentSlider}
     {/block:IndexPage}
     </header>
-    
-<section id="{block:IndexPage}home-page-content-container{/block:IndexPage}{block:PermalinkPage}single-page-content-container{/block:PermalinkPage}" style="background-color:fafafa;">
+    {block:IndexPage}<!--{block:TagPage}-->{/block:TagPage}{block:PermalinkPage}-->{/block:PermalinkPage}{/block:IndexPage}
+<section id="{block:IndexPage}home-page-content-container{/block:IndexPage}{block:PermalinkPage}single-page-content-container{/block:PermalinkPage}" style="background-color:fafafa;{block:IndexPage}visibility:hidden;{block:TagPage}visibility:visible;{/block:TagPage}{block:PermalinkPage}visibility:visible;{/block:PermalinkPage}{/block:IndexPage}" >
     <div id="container" >
         <div class="row" data-equalizer data-equalizer-mq="medium-up">
             <div class="small-12 {block:ifShowSidebar} medium-7 large-9{/block:ifShowSidebar} {block:ifNotShowSidebar} medium-12 large-12 {/block:ifNotShowSidebar}columns left-content-pane" {block:ifShowSidebar}data-equalizer-watch{/block:ifShowSidebar}>
@@ -828,36 +1004,32 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
             {block:TagPage}
                 <div class="extra-content-header-container" >
                     
-                        <h1>&nbsp;&gt;&nbsp;{Tag}</h1>
                     
                 </div>
             {/block:TagPage}
             {block:Posts}
              <div class="{block:TagPage} tag_page {/block:TagPage}{block:PermalinkPage}perma_page{/block:PermalinkPage}" style="background-color:fafafa;"> 
            
-                <div class="{block:TagPage} tag_page {/block:TagPage}{block:PermalinkPage}perma_page{/block:PermalinkPage} row {block:Text}type-post{/block:Text} {block:Photoset}type-image imaged-photoset{/block:Photoset} {block:Photo}type-image{/block:Photo} {block:RebloggedFrom}rebloggedfrom{/block:RebloggedFrom}{block:Quote}type-quote{/block:Quote} {block:Link}type-link{/block:Link} {block:Chat}type-chat{/block:Chat} {block:Audio}type-audio{/block:Audio} {block:Video}type-video{/block:Video} {block:Answer}type-post type-post-answer{/block:Answer}" style="margin-bottom:0rem!important;margin-top:0rem!important;background-color:fafafa;">
+                <div class="{block:TagPage} tag_page {/block:TagPage}{block:PermalinkPage}perma_page{/block:PermalinkPage} row {block:Text}type-post{/block:Text} {block:Photoset}type-image imaged-photoset{/block:Photoset} {block:Photo}type-image{/block:Photo} {block:RebloggedFrom}rebloggedfrom{/block:RebloggedFrom}{block:Quote}type-quote{/block:Quote} {block:Link}type-link{/block:Link} {block:Chat}type-chat{/block:Chat} {block:Audio}type-audio{/block:Audio} {block:Video}type-video{/block:Video} {block:Answer}type-post type-post-answer{/block:Answer}" style="margin-bottom:1rem!important;margin-top:2rem!important;background-color:fafafa;">
                
                         
                             
                             <div class="row" itemscope itemtype="http://schema.org/Article">
                             
                       <article class=" small-12 columns" itemprop="articleSection" content="article">
-                            <div class="tumblr-tags-box  text-right" style="float: right; margin: 0 0 10px 10px;"> {block:Tags}
-                        <a href="{TagURL}" title="{tag}" class="tiny button radius tagbutt">{tag}</a>
-                    {/block:Tags}<a itemprop="url" content="{Permalink}" href="{Permalink}">
-<i class="fa fa-tag " style="padding:1rem;font-size:0.8rem;"> </i> </a>
-                            </div>
+                            
                             {block:Text}
 
                                 {block:Title}
                                    {block:IndexPage}
-                                   <h2 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a>
-                                    </h2>{/block:IndexPage}{block:PermalinkPage}<h1 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a></h1>{/block:PermalinkPage}
+                                   <h2 itemprop="name">{Title}
+                                    </h2>{/block:IndexPage}
+                                    {block:PermalinkPage}<h2 itemprop="name">{Title}</h2>{/block:PermalinkPage}
 
                                 {/block:Title}
                                 
                                 {block:Body}
-                                <div class="type-post-content" itemprop="articleBody">
+                                <div class="type-post-content" itemprop="articleBody" style="max-width:800px;{block:PermalinkPage}max-width:100%{/block:PermalinkPage}">
                                     {Body}
                                     
                                 </div>
@@ -936,7 +1108,7 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                        {/block:Link}                 
                         {block:Chat}
                              {block:IndexPage}<h2 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a>
-                                    </h2>{/block:IndexPage}{block:PermalinkPage}<h1 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a></h1>{/block:PermalinkPage}
+                                    </h2>{/block:IndexPage}{block:PermalinkPage}<h2 itemprop="name"><a itemprop="url" content="{Permalink}" href="{Permalink}" title="{PlaintextTitle}">{Title}</a></h2>{/block:PermalinkPage}
                                             <ul class="no-bullet tumblr-chat" itemprop="articleBody">
                                             {block:Lines}
                                                 <li class="{Alt}">{block:Label}<span class="chat-label">{Label}</span>{/block:Label} {Line}</li>
@@ -978,18 +1150,19 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                         {/block:Audio}
                         
                         {block:Video}
-                            {block:Caption}
-                                    <div class="captions"> 
-                                        {Caption}
-                                    </div>
-                                    {/block:Caption}
+                          
                                 
-                                <div class="type-post-content" itemprop="articleBody">
-                                    <div class="videowrapper">
-                                        {Video-700}
+<div class="type-post-content" itemprop="articleBody"  >
+                                    {block:Caption}
+                <div style="max-width:570px;float:left;padding-right:2rem;">{Caption}</div>
+                             {/block:Caption}
+                           
+                           <div class="videowrapper" style="float:left;max-width:560px;width:100%;max-height:360px!important;height:315px!important;padding:0px;margin-top:25px;">
+                                    {Video-700}
+                           
                                     </div>
                                     
-                                     
+                                       
                                 </div>
                         {/block:Video}
                                               
@@ -1010,6 +1183,7 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                                             {Replies}
                                             </div>
   
+                                            </div>
                                     </div>
                         {/block:Answer}   
                         
@@ -1044,62 +1218,24 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                         {/block:NotReblog}
 
                         {block:PermalinkPage}
-                        
 
-                        {/block:PermalinkPage}
+                       
                         
-                        {block:HasTags}
-                          {block:IfNotDisqusCommenting}
+                      
+                          {block:HasTags}
                              
                                 <div class="tumblr-tags-box">
-                                    <i class="fa fa-tag " style="padding:1rem;font-size:0.8rem;"> Categories: </i>  {block:Tags}
+                                    <i class="fa fa-tag " style="padding:0.5rem;font-size:0.5rem;"> Tags: </i>  {block:Tags}
                         <a href="{TagURL}" title="{tag}" class="tiny button radius tagbutt">{tag}</a>
-                    {/block:Tags}
+                    {/block:Tags} 
                                 </div>
-                                  {/block:IfNotDisqusCommenting}
                         {/block:HasTags}
                         
-                                <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name" content="{text:Meta Author}"></span></span>
-                                
+                        {/block:PermalinkPage}
+                        
                         </div>
                         
-                        {block:IfNotDisqusCommenting}
-                        <div class="row">
-
-                            <div class="small-12 medium-12 large-4 columns tumblr-socialed">
-                                <a href="https://plus.google.com/share?url={PermaLink}" title="Share this post on Google Plus" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u={PermaLink}" title="Share this post on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-                                <a href="https://twitter.com/home?status={block:PostSummary}{PostSummary}{/block:PostSummary} - {PermaLink}" title="Share this post on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-                                <a href="http://www.reddit.com/submit?url={PermaLink}" title="Share this post on Reddit" target="_blank"><i class="fa fa-reddit-square fa-2x"></i></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={PermaLink}&title={block:PostTitle}{PostTitle}{/block:PostTitle}&summary={block:PostSummary}{PostSummary}{/block:PostSummary}&source=" title="Share this post on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                                <a href="https://pinterest.com/pin/create/button/?url={PermaLink}&media={PortraitURL-128}&description={block:PostTitle}{PostTitle}{/block:PostTitle}" title="Share this post on Pinterest" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
-                                <a href="http://digg.com/submit?url={PermaLink}&title={block:PostTitle}{PostTitle}{/block:PostTitle}" title="Share this post on Digg" target="_blank"><i class="fa fa-digg fa-2x"></i></a>
-                            </div>
-                            <div class="small-12 medium-12 large-4 columns tumblr-comments-no text-center">
-
-                               &nbsp;
-                            </div>
-
-
-                            <div class="small-12 medium-12 large-4 columns tumblr-socialed text-right">
-                                <div class="tumblr-comments-no reblog-like-button right">
-                                    <a class="dsq-comment-count fa fa-comments" href="{Permalink}" title="View Comments">View Comments </a>   <a href="{Permalink}" title="View Notes" class="fa fa-heart"> {NoteCountWithLabel}</a> 
-                            {block:Date}
-                                <br>
-                                <small>
-                                    <i class="fa fa-clock-o" itemprop="datePublished" content="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}T{24HourWithZero}:{Minutes}"> published on {DayOfMonthWithZero} {ShortMonth}, {Year}.</i>
-                                </small>
-                            {/block:Date}
-                                </div>
-                               <div class="reblog-like-button right">
-                                   {ReblogButton size="30"}
-                               </div> 
-                                <div class="reblog-like-button right">
-                                    {LikeButton size="30"}
-                                </div>
-                            </div>
-                        </div>
-                           {/block:IfNotDisqusCommenting} 
+                       
 
                 </article> 
                             
@@ -1154,70 +1290,13 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                                 <div id="round-cut-shape">&nbsp;</div>
                             {/block:ShowAvatar} 
                                 <div id="bio-cv">
-                                    {Description}
+                                    {text:Questions}
                                 </div>
                             </div>
                         </div>
                         {/block:ShowDescription}
 
                     </div>
-                    {block:ifShowSocialDropdown}
-                    <div class="row" id="social-home">
-                        <div class="small-12 columns">
-
-                            <a href="#" data-dropdown="social-drop" aria-controls="drop1" aria-expanded="false" class="expand button dropdown">Find Me At:</a>
-                            
-                            <ul id="social-drop" data-dropdown-content class="f-dropdown social-d" aria-hidden="true" tabindex="-1">
-                            {block:IfTwitterLink}
-                                <li><a target="_blank" href="{text:Twitter Link}" title="Twitter"><i class="fa fa-twitter-square fa-lg"> <span>Twitter</span></i></a>
-                            {/block:IfTwitterLink}
-                            {block:IfFBLink}
-                                    <li><a target="_blank"  href="{text:FB Link}" title="Facebook"><i class="fa fa-facebook-square fa-lg"> <span>Facebook</span></i></a></li>
-                             {/block:IfFBLink}
-                             {block:IfPinterestLink}
-                                     <li><a target="_blank"  href="{text:Pinterest Link}" title="Pinterest"><i class="fa fa-pinterest-square fa-lg"> <span>Pinterest</span></i></a></li>
-                            {/block:IfPinterestLink}
-                            {block:IfBehanceLink}
-                                      <li><a target="_blank"  href="{text:Behance Link}" title="Behance"><i class="fa fa-behance-square fa-lg"><span> Behance</span></i></a></li>
-                            {/block:IfBehanceLink}
-                            {block:IfBitBucketLink}
-                                      <li><a target="_blank"  href="{text:BitBucket Link}" title="Bitbucket"><i class="fa fa-bitbucket-square fa-lg"><span> BitBucket</span></i></a></li>
-                            {/block:IfBitBucketLink}
-                            {block:IfDecliciousLink}
-                            
-                                      <li><a target="_blank"  href="{text:Declicious Link}" title="Delicious"><i class="fa fa-delicious fa-lg"><span> Delicious</span></i></a>
-                            {/block:IfDecliciousLink}
-                            {block:IfDeviantArtLink}
-                                      <li><a target="_blank"  href="{text:DeviantArt Link}" title="DeviantArt"><i class="fa fa-deviantart fa-lg"><span> DeviantArt</span></i></a>
-                            {/block:IfDeviantArtLink}
-                            {block:IfGithubLink}
-                                      <li><a target="_blank"  href="{text:Github Link}" title="GitHub"><i class="fa fa-github-square fa-lg"><span> GitHub</span></i></a></li>
-                            {/block:IfGithubLink}
-                            {block:IfGooglePlusLink}
-                                      <li><a target="_blank"  href="{text:GooglePlus Link}" title="Google Plus"><i class="fa fa-google-plus-square fa-lg"><span> Google Plus</span></i></a></li>
-                            {/block:IfGooglePlusLink}
-                            {block:IfInstagramLink}
-                                      <li><a target="_blank"  href="{text:Instagram Link}" title="Instagram"><i class="fa fa-instagram fa-lg"><span> Instagram</span></i></a></li>
-                            {/block:IfInstagramLink}
-                            {block:IfLastfmLink}
-                                      <li><a target="_blank"  href="{text:Lastfm Link}" title="Last.fm"><i class="fa fa-lastfm-square fa-lg"><span> Last.fm</span></i></a></li>
-                            {/block:IfLastfmLink}
-                            {block:IfLinkedInLink}
-                                      <li><a target="_blank"  href="{text:LinkedIn Link}" title="LindedIn"><i class="fa fa-linkedin-square fa-lg"><span> LinkedIn</span></i></a></li>
-                            {/block:IfLinkedInLink}
-                            {block:IfRedditLink}
-                                      <li><a target="_blank"  href="{text:Reddit Link}" title="Reddit"><i class="fa fa-reddit-square fa-lg"><span> Reddit</span></i></a></li>
-                            {/block:IfRedditLink}
-                            {block:IfSkypeLink}
-                                      <li><a target="_blank"  href="{text:Skype Link}" title="Skype"><i class="fa fa-skype fa-lg"><span> Skype</span></i></a></li>
-                            {/block:IfSkypeLink}
-                                            
-
-                            </ul>
-
-                        </div>
-                    </div>
-                    {/block:ifShowSocialDropdown}
                     {block:IfCustomSidebarOneContent}
                     <div class="row custom-text">
                         <div class="small-12 columns">
@@ -1249,27 +1328,6 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
 
 
                     
-                    {block:If500pxUsername}
-                    <div class="row custom-text" id="500px-containter" style="display:none;">
-                        <div class="small-12 columns">
-                            <h3>{text:500px Title}</h3>
-                            <ul id="sidebar-500px" class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
-                                
-                            </ul>
-                        </div>
-                    </div>
-                    {/block:If500pxUsername}
-                    
-                    {block:IfInstagramToken}
-                    {block:IfInstagramUserID}
-                    <div class="row custom-text" id="Instagram-Container"  style="display:none;">
-                        <div class="small-12 columns">
-                            <h3>{text:Instagram Title}</h3>
-                             <ul id="instafeed" class="small-block-grid-3 medium-block-grid-3 large-block-grid-3"></ul>
-                        </div>
-                    </div>
-                    {/block:IfInstagramUserID}
-                    {/block:IfInstagramToken}
                 
                      {block:IfCustomSidebarThreeContent}
                     <div class="row custom-text">
@@ -1345,6 +1403,11 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                     <i class="fa fa-tag fa-lg"></i>
                     <h4>Tags</h4>
                     <p>
+                    {block:IfTopTen}
+                                    <a class="tiny button radius tagbutt" href="/top10">{text:TopTen}</a>
+                                    
+                                    
+                                    {/block:IfTopTen}
                        {block:IfTagOne}
                                     <a class="tiny button radius tagbutt" href="/tagged/{text:TagOne}">{text:TagOne}</a>
                                     
@@ -1384,6 +1447,7 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
                                     {/block:IfTagNine}
                                     {block:IfTagTen}
                                     <a class="tiny button radius tagbutt" href="/tagged/{text:TagTen}">{text:TagTen}</a>
+                                    
                                     
                                     {/block:IfTagTen} 
                     </p>
@@ -1442,9 +1506,9 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
         {block:IfShowCreditInFooter}
             <div class="small-12 columns text-center">
                 <p><small>  <a href="https://meraki.cisco.com/support/#policies:privacy">Privacy</a> | <a href="https://meraki.cisco.com/support/#policies:tou">Terms of Use</a> | <a href="https://meraki.cisco.com/blog">Blog</a> | <a href="https://meraki.cisco.com/jobs">Jobs</a>
-                </ul>               </small><span>
-                &copy; {CopyrightYears} {text:Footer Credit}</span>
-                </p>
+				</ul>               </small><span>
+				<br>&copy; {CopyrightYears} {text:Footer Credit}</span>
+				</p>
                 
             </div>
         {/block:IfShowCreditInFooter}
@@ -1460,27 +1524,26 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
     <div id="go-to-top">
         <a href="#top-of-page"><i class="fa fa-long-arrow-up"></i></a>
     </div>
+    
+   
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vp1f6hg/3pqnf4jk3/jquery.min.js"%3E%3C/script%3E'));</script>
         <script src="http://static.tumblr.com/vp1f6hg/jLbnf4k02/modernizr.js"></script>
-        <script src="http://static.tumblr.com/vp1f6hg/lbpnf4jev/foundation.min.js"></script>
-        {block:ifShowSidebar}
-        {block:If500pxUsername}
-        <script src="http://static.tumblr.com/vp1f6hg/ogCnfg8b2/500pxapi.js"></script>
-        {/block:If500pxUsername}
-        {block:IfInstagramToken}
-        <script src="http://static.tumblr.com/vp1f6hg/AkBnfgf95/instafeed.js"></script>
-        {/block:IfInstagramToken}
-        {/block:ifShowSidebar}
+        <!--- 
        {block:IfCodeHighlighting}
        <script src="http://static.tumblr.com/vp1f6hg/xVMnh2s62/prism.js"></script>
        {/block:IfCodeHighlighting}
+        -->
+        <script src="http://static.tumblr.com/vp1f6hg/lbpnf4jev/foundation.min.js"></script>
+        
+        {block:ifShowSidebar}
+        {/block:ifShowSidebar}
        
     <script text="text/javascript">
      {block:ifShowSidebar}{block:Twitter}
      function recent_tweets(e){var t=e.length>5?5:e.length;for(i=0;i<t;i++){document.getElementById("tweets").innerHTML=document.getElementById("tweets").innerHTML+'<li><a target="_blank" href="http://twitter.com/{TwitterUsername}/status/'+(e[i].id_str?e[i].id_str:e[i].id)+'"><div class="content">'+e[i].text+"</div></a></li>"}document.getElementById("twitter").style.display="block"}
      {/block:Twitter} {/block:ifShowSidebar}
-   $(document).foundation({{block:IndexPage}orbit:{resume_on_mouseout:true,animation:"fade",timer_speed:6e3,animation_speed:400,stack_on_small:false,navigation_arrows:true,slide_number:false,pause_on_hover:true,timer:true,variable_height:false},{/block:IndexPage} topbar:{scrolltop:false}});
+   $(document).foundation({{block:IndexPage}orbit:{resume_on_mouseout:true,animation:"fade",timer_speed:3e3,animation_speed:400,stack_on_small:false,navigation_arrows:false,slide_number:false,pause_on_hover:false,timer:false,variable_height:false},{/block:IndexPage} topbar:{scrolltop:false}});
     $(document).ready(function(){
         
          {block:IndexPage} 
@@ -1490,7 +1553,7 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
          {/block:IfContentSlider}
        {/block:IndexPage} 
        {block:PermalinkPage} 
-       if($("img.main-image:first").length!=0){var main_img=$("img.main-image:first");var main_img_src=main_img.attr("src");if(main_img_src!=""&&main_img_src!="undefined"){$("#main-image-holder").removeClass("backgroundtop");backcss="url("+main_img_src+") no-repeat center center fixed";$("div#main-image-holder").css("background-image",'url("'+main_img_src+'")');$("#main-image-holder").addClass("backgroundtop");main_img.hide()}}else{$("#main-image-holder").remove();$("#single-page-content-container").css("padding-top","0");$("#single-page-content-container").css("margin-top","2.5rem");$("#single-page-content-container article > h2").css("margin-top","0rem");$("#single-page-content-container article > h1").css("margin-top","0rem")}
+       if($("img.main-image:first").length!=0){var main_img=$("img.main-image:first");var main_img_src=main_img.attr("src");if(main_img_src!=""&&main_img_src!="undefined"){$("#main-image-holder").removeClass("backgroundtop");backcss="url("+main_img_src+") no-repeat center center fixed";$("div#main-image-holder").css("background-image",'url("'+main_img_src+'")');$("#main-image-holder").addClass("backgroundtop");main_img.hide()}}else{$("#main-image-holder").remove();$("#single-page-content-container").css("padding-top","0");$("#single-page-content-container").css("margin-top","4rem");$("#single-page-content-container article > h2").css("margin-top","0rem");$("#single-page-content-container article > h1").css("margin-top","0rem")}
        {/block:PermalinkPage} 
      $(document.body).on("closed.fndtn.clearing", function(event) {$("div.corousel").show();});$(document.body).on("opened.fndtn.clearing", function(event) {$("div.corousel").hide();$("ul.clearing-thumbs").hide();
    });
@@ -1510,11 +1573,6 @@ article h2 a:hover, a:hover, ul.pagination li a:hover, a:hover, ul.pagination li
 
 
     </script>
-    <script src="https://raw.github.com/gist/2090021/tumblrGists.js" type="text/javascript"></script>
-    
 <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
     </body>
-
 </html>
-    <!--home page container ends here-->
-    <!-- min-->
